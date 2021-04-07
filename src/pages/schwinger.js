@@ -13,7 +13,6 @@ export default function Schwinger({ schwinger = [] }) {
               <div >
                 <Link href="/schwinger/[slug]" as={`/schwinger/${sw.slug}`}>
                   <a>
-                    <h2>{sw.title}</h2>
                     <em>{sw.dateFormatted}</em>
                   </a>
                 </Link>
