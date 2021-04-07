@@ -4,9 +4,9 @@ import schwinger from '../../../public/data/schwinger.json'
 
 const defaultCoverImage = '/img/34961490322_bb9611120a_k.jpg'
 
-export default function BlogPost({ sw }) {
+export default function SchwingerPost({ sw }) {
   return (
-    <Layout title={`${sw.title} | Blog`}>
+    <Layout name={`${sw.name} | Blog`}>
       <Link href="/blog"><a className="button mb-4">◀️ All Entries</a></Link>
 
       <div className="cover-image" style={{ backgroundImage: `url(${sw.coverImage || defaultCoverImage})` }}>
