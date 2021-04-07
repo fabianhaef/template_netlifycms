@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Layout from '../components/Layout'
 import schwinger from '../../public/data/schwinger.json'
 
-export default function Blog({ schwinger = [] }) {
+export default function Schwinger({ schwinger = [] }) {
   return (
     <Layout name="Schwinger">
       <h1 className="">📓 Blog</h1>
