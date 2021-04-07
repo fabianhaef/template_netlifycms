@@ -5,9 +5,9 @@ backend:
 media_folder: public/img
 public_folder: img
 collections:
-  - label: "Schwinger Posts"
-    name: "schwinger"
-    folder: "public/data/schwinger"
+  - label: "Blog Posts"
+    name: "posts"
+    folder: "public/data/posts"
     create: true
     identifier_field: "title"
     slug: "{{fields.slug}}"

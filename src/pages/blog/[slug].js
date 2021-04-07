@@ -9,14 +9,14 @@ export default function BlogPost({ post }) {
     <Layout title={`${post.title} | Blog`}>
       <Link href="/blog"><a className="button mb-4">◀️ All Entries</a></Link>
 
-      <div className="cover-image" style={{backgroundImage:`url(${post.coverImage || defaultCoverImage})`}}>
+      <div className="cover-image" style={{ backgroundImage: `url(${post.coverImage || defaultCoverImage})` }}>
         <div className="title-block">
           <h1 className="title">{post.title}</h1>
           <em className="subtitle is-6 is-block">{post.dateFormatted}</em>
         </div>
       </div>
 
-      <div className="content section" dangerouslySetInnerHTML={{__html:post.bodyHtml}} />
+      <div className="content section" dangerouslySetInnerHTML={{ __html: post.bodyHtml }} />
     </Layout>
   )
 }
