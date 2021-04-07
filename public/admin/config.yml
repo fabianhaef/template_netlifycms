@@ -5,32 +5,7 @@ backend:
 media_folder: public/img
 public_folder: img
 collections:
-  - label: "Blog Posts"
-    name: "posts"
-    folder: "public/data/posts"
-    create: true
-    identifier_field: "title"
-    slug: "{{fields.slug}}"
-    format: "json"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - {
-          label: "Slug",
-          name: "slug",
-          widget: "string",
-          pattern:
-            ["^[a-zA-Z0-9-_]+$", "Alphanumeric with dashes or underscores"],
-        }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - {
-          label: "Cover Image",
-          name: "coverImage",
-          widget: "image",
-          required: false,
-        }
-      - { label: "Body", name: "body", widget: "markdown" }
-
-  - label: "Schwinger"
+  - label: "Schwinger Posts"
     name: "schwinger"
     folder: "public/data/schwinger"
     create: true
@@ -38,7 +13,7 @@ collections:
     slug: "{{fields.slug}}"
     format: "json"
     fields:
-      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
       - {
           label: "Slug",
           name: "slug",

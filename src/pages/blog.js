@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Layout from '../components/Layout'
-import posts from '../../public/data/posts.json'
+import posts from '../../public/data/schwinger.json'
 
 export default function Blog({ posts = [] }) {
   return (
