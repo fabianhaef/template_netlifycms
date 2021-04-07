@@ -1,20 +1,20 @@
 import Link from 'next/link'
 import Layout from '../components/Layout'
-import posts from '../../public/data/posts.json'
+import schwinger from '../../public/data/schwinger.json'
 
-export default function Blog({ posts = [] }) {
+export default function Blog({ schwinger = [] }) {
   return (
     <Layout title="Blog">
       <h1 className="">📓 Blog</h1>
-      {posts.map(post => (
-        <div key={post.slug}>
+      {schwinger.map(sw => (
+        <div key={sw.slug}>
           <article >
             <div >
               <div >
-                <Link href="/blog/[slug]" as={`/blog/${post.slug}`}>
+                <Link href="/blog/[slug]" as={`/blog/${pswost.slug}`}>
                   <a>
-                    <h2>{post.title}</h2>
-                    <em>{post.dateFormatted}</em>
+                    <h2>{sw.title}</h2>
+                    <em>{sw.dateFormatted}</em>
                   </a>
                 </Link>
               </div>
@@ -29,7 +29,7 @@ export default function Blog({ posts = [] }) {
 export async function getStaticProps() {
   return {
     props: {
-      posts
+      schwinger
     }
   }
 }
