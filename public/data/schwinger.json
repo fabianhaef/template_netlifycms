@@ -1,6 +1,6 @@
 [
   {
-    "name": "The Real Deal with NextJS",
+    "title": "The Real Deal with NextJS",
     "slug": "nextjs-real-deal",
     "date": "2020-09-15T20:50:51.165Z",
     "coverImage": "/img/34961490322_bb9611120a_k.jpg",
@@ -9,7 +9,7 @@
     "dateFormatted": "Tuesday, September 15, 2020"
   },
   {
-    "name": "Next level NextJS",
+    "title": "Next level NextJS",
     "slug": "next-level-nextjs",
     "date": "2020-09-14T20:22:14.728Z",
     "coverImage": "/img/34484249943_85383d7802_k.jpg",
@@ -18,7 +18,7 @@
     "dateFormatted": "Monday, September 14, 2020"
   },
   {
-    "name": "Introduction to NextJS",
+    "title": "Introduction to NextJS",
     "slug": "intro-to-nextjs",
     "date": "2020-09-12T20:21:32.004Z",
     "coverImage": "/img/31300468583_856fe746be_k.jpg",

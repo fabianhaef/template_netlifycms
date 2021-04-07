@@ -6,12 +6,12 @@ const defaultCoverImage = '/img/34961490322_bb9611120a_k.jpg'
 
 export default function SchwingerPost({ sw }) {
   return (
-    <Layout title={`${sw.name} | Blog`}>
+    <Layout title={`${sw.title} | Blog`}>
       <Link href="/blog"><a className="button mb-4">◀️ All Entries</a></Link>
 
       <div className="cover-image" style={{ backgroundImage: `url(${sw.coverImage || defaultCoverImage})` }}>
         <div>
-          <h1>{sw.name}</h1>
+          <h1>{sw.title}</h1>
           <em className="subtitle is-6 is-block">{sw.dateFormatted}</em>
         </div>
       </div>
