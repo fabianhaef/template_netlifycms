@@ -7,6 +7,7 @@ export default function Layout({ title = 'Portfolio', children = [] }) {
       <Head>
         <title>{title}</title>
         <link rel="icon" href="/favicon.ico" />
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Head>
 
       <Navbar />
