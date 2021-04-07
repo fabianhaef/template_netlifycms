@@ -1,10 +1,10 @@
 import Link from 'next/link'
 import Layout from '../../components/Layout'
-import scwhinger from '../../../public/data/scwhinger.json'
+import schwinger from '../../../public/data/scwhinger.json'
 
 const defaultCoverImage = '/img/34961490322_bb9611120a_k.jpg'
 
-export default function SChwingerPost({ post }) {
+export default function SchwingerPost({ post }) {
   return (
     <Layout title={`${post.title} | Blog`}>
       <Link href="/blog"><a className="button mb-4">◀️ All Entries</a></Link>
