@@ -5,7 +5,8 @@ const html = require('remark-html')
 
 // we'll look for any `.json` files in the `input` folder, then output to a single json file
 const scanDirectories = [
-  { inputDirectory: 'public/data/posts', outputFile: 'public/data/posts.json' }
+  { inputDirectory: 'public/data/posts', outputFile: 'public/data/posts.json' },
+  { inputDirectory: 'public/data/news', outputFile: 'public/data/news.json' },
 ]
 
 console.log('BUILD JSON DATA')
