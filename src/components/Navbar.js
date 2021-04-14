@@ -6,7 +6,7 @@ export default function Navbar() {
       <div className="navbar-brand">
         <Link href="/">
           <a className="navbar-item">
-            <img src="https://avatars2.githubusercontent.com/u/259196?s=460&u=0d55dc7c6f0f2ef9dbd6d3f9cea9b1c876b66b73&v=4" className="navbar-logo" />
+            <img src="./static/logo.jpg" className="navbar-logo" />
           </a>
         </Link>
       </div>
@@ -21,6 +21,11 @@ export default function Navbar() {
           <Link href="/blog">
             <a className="navbar-item">
               Blog
+            </a>
+          </Link>
+          <Link href="/news">
+            <a className="navbar-item">
+              News
             </a>
           </Link>
         </div>
