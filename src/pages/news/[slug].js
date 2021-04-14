@@ -29,7 +29,7 @@ export async function getStaticProps(context) {
   }
 }
 
-// generates all available blog post URLs
+// generates all available news post URLs
 export async function getStaticPaths() {
   return {
     paths: news.map(post => ({ params: { slug: post.slug } })),

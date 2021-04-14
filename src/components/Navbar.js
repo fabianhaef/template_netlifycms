@@ -13,14 +13,9 @@ export default function Navbar() {
 
       <div className="navbar-menu is-active">
         <div className="navbar-start">
-          <Link href="/projects">
+          <Link href="/schwinger">
             <a className="navbar-item">
-              Projects
-            </a>
-          </Link>
-          <Link href="/blog">
-            <a className="navbar-item">
-              Blog
+              Schwinger
             </a>
           </Link>
           <Link href="/news">
