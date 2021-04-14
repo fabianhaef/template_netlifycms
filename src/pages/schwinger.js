@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Layout from '../components/Layout'
 import schwingers from '../../public/data/schwingers.json'
 
-export default function Schwinger({ schwinger = [] }) {
+export default function Schwinger({ schwingers = [] }) {
   return (
     <Layout title="Blog">
       <h1 className="title">📓 Blog</h1>
