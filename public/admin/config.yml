@@ -5,9 +5,9 @@ backend:
 media_folder: public/img
 public_folder: img
 collections:
-  - label: "News"
-    name: "news"
-    folder: "public/data/news"
+  - label: "Blog Posts"
+    name: "posts"
+    folder: "public/data/posts"
     create: true
     identifier_field: "title"
     slug: "{{fields.slug}}"
@@ -29,9 +29,9 @@ collections:
           required: false,
         }
       - { label: "Body", name: "body", widget: "markdown" }
-  - label: "Schwingers"
-    name: "schwingers"
-    folder: "public/data/schwingers"
+  - label: "News"
+    name: "news"
+    folder: "public/data/news"
     create: true
     identifier_field: "title"
     slug: "{{fields.slug}}"

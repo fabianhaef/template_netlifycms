@@ -7,7 +7,7 @@ const defaultCoverImage = '/img/34961490322_bb9611120a_k.jpg'
 export default function SchwingerPost({ schwinger }) {
   return (
     <Layout title={`${schwinger.title} | Blog`}>
-      <Link href="/schwinger"><a className="button mb-4">◀️ All Entries</a></Link>
+      <Link href="/blog"><a className="button mb-4">◀️ All Entries</a></Link>
 
       <div className="cover-image" style={{ backgroundImage: `url(${schwinger.coverImage || defaultCoverImage})` }}>
         <div className="title-block">
@@ -24,7 +24,7 @@ export default function SchwingerPost({ schwinger }) {
 export async function getStaticProps(context) {
   return {
     props: {
-      schwinger: schwingers.find(sw => sw.slug === context.params.slug)
+      schwinger: schwingers.find(schwinger => schwinger.slug === context.params.slug)
     }
   }
 }
@@ -32,7 +32,7 @@ export async function getStaticProps(context) {
 // generates all available blog post URLs
 export async function getStaticPaths() {
   return {
-    paths: schwingers.map(sw => ({ params: { slug: sw.slug } })),
+    paths: schwingers.map(schwinger => ({ params: { slug: schwinger.slug } })),
     fallback: false
   }
 }
