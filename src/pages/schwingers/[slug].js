@@ -24,7 +24,7 @@ export default function SchwingerPost({ schwinger }) {
 export async function getStaticProps(context) {
   return {
     props: {
-      schwinger: schwingers.find(schwinger => schwinger.slug === context.params.slug)
+      schwinger: schwingers.find(sw => sw.slug === context.params.slug)
     }
   }
 }
@@ -32,7 +32,7 @@ export async function getStaticProps(context) {
 // generates all available blog post URLs
 export async function getStaticPaths() {
   return {
-    paths: schwingers.map(schwinger => ({ params: { slug: schwinger.slug.toString() } })),
+    paths: schwingers.map(sw => ({ params: { slug: sw.slug } })),
     fallback: false
   }
 }
