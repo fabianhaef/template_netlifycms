@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import Layout from '../../components/Layout'
 import vorstand from '../../../public/data/vorstand.json'
 
@@ -21,7 +20,7 @@ export default function VorstandPerson({ mitglied }) {
 export async function getStaticProps(context) {
   return {
     props: {
-      vorstand: vorstand.find(md => md.slug === context.params.slug)
+      mitglied: vorstand.find(md => md.slug === context.params.slug)
     }
   }
 }
