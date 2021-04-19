@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Navbar from './Navbar'
+import Link from 'next/link'
 
-export default function Layout({ title = 'Portfolio', children = [] }) {
+export default function Layout({ title = 'Schwingclub Zug und Umgebung', children = [] }) {
   return (
     <div className="container">
       <Head>
@@ -15,8 +16,15 @@ export default function Layout({ title = 'Portfolio', children = [] }) {
         {children}
       </main>
 
-      <footer className="mb-6">
+      <footer className="footer">
         &copy; {(new Date()).getFullYear()}
+        <div className="mb-6">
+          <Link href="/impressum">
+            <a>
+              Impressum
+          </a>
+          </Link>
+        </div>
       </footer>
     </div>
   )

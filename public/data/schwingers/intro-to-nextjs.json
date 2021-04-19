@@ -1,6 +1,5 @@
 {
   "title": "Patrick Häfliger",
-  "slug": "patrick-haefliger",
   "date": "2020-09-12T20:21:32.004Z",
   "coverImage": "/img/31300468583_856fe746be_k.jpg",
   "body": "Today we're going to learn about NextJS\n\n```\nimport React from 'react'\n```",
