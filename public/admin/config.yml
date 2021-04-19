@@ -29,16 +29,15 @@ collections:
           required: false,
         }
       - { label: "Body", name: "body", widget: "markdown" }
-  - label: "Schwinger"
-    name: "schwinger"
-    folder: "public/data/schwinger"
-    slug: "{{fields.slug}}"
+  - label: "Schwingers"
+    name: "schwingers"
+    folder: "public/data/schwingers"
     create: true
     identifier_field: "title"
+    slug: "{{fields.slug}}"
     format: "json"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Rolle", name: "rolle", widget: "string" }
       - {
           label: "Slug",
           name: "slug",

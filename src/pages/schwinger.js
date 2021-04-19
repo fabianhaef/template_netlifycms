@@ -5,7 +5,7 @@ import schwingers from '../../public/data/schwingers.json'
 
 export default function Schwinger({ schwingers = [] }) {
   return (
-    <Layout title="Schwinger">
+    <Layout title="Schwingers">
       <h1 className="title">📓 Blog</h1>
       {schwingers.map(schwinger => (
         <div key={schwinger.slug} className="box">
