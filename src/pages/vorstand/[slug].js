@@ -21,7 +21,7 @@ export default function VorstandPerson({ mitglied }) {
 export async function getStaticProps(context) {
   return {
     props: {
-      schwinger: vorstand.find(md => md.slug === context.params.slug)
+      vorstand: vorstand.find(md => md.slug === context.params.slug)
     }
   }
 }
