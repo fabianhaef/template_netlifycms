@@ -32,7 +32,7 @@ export async function getStaticProps(context) {
 // generates all available blog post URLs
 export async function getStaticPaths() {
   return {
-    paths: schwingers.map(schwinger => ({ params: { slug: schwinger.slug } })),
+    paths: schwingers.map(schwinger => ({ params: { slug: schwinger.slug.toString() } })),
     fallback: false
   }
 }
