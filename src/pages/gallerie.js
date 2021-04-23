@@ -11,7 +11,7 @@ export default function Galerie({ bilder = [] }) {
 
         {bilder.map(bild => (
           <div className="box">
-            <img src={bild.coverImage} alt={bild.title} width="256" height="256"></img>
+            <img src={bild.coverImage} width="256" height="256"></img>
           </div>
         ))}
       </section>
