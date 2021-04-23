@@ -16,22 +16,18 @@ export default function About({ vorstand = [] }) {
       </section>
       <section title="Vorstand" className="section">
         <h1 className="title">Vorstand</h1>
-        {vorstand.map(mitglied => (
-          <div key={mitglied.title} className="box">
-            <article className="media">
-              <div className="media-content">
-                <div className="content">
-                  <a>
-                    <h2 className="title is-3">{mitglied.title}</h2>
-                    <h2 className="title is-4">{mitglied.rolle}</h2>
-                    <div className="cover-image" style={{ backgroundImage: `url(${mitglied.coverImage || defaultCoverImage})` }}>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </article>
-          </div>
-        ))}
+        <div className="grid-3-columns">
+          {vorstand.map(mitglied => (
+            <div key={mitglied.title} className="box">
+              <article>
+                <h2 className="title is-3">{mitglied.title}</h2>
+                <h2 className="title is-4">{mitglied.rolle}</h2>
+                <img className="image" src={mitglied.coverImage} alt={mitglied.title} width="128"></img>
+              </article>
+            </div>
+          ))}
+        </div>
+        <img className="image" src="./static/images/vorstand.jpg"></img>
       </section>
     </Layout >
   )
