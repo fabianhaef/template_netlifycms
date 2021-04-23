@@ -7,6 +7,7 @@ const html = require('remark-html')
 const scanDirectories = [
   { inputDirectory: 'public/data/vorstand', outputFile: 'public/data/vorstand.json' },
   { inputDirectory: 'public/data/schwingers', outputFile: 'public/data/schwingers.json' },
+  { inputDirectory: 'public/data/bilder', outputFile: 'public/data/bilder.json' },
   { inputDirectory: 'public/data/news', outputFile: 'public/data/news.json' },
 ]
 

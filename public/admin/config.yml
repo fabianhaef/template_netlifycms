@@ -78,3 +78,25 @@ collections:
           required: false,
         }
       - { label: "Body", name: "body", widget: "markdown" }
+  - label: "Gallerie"
+    name: "bilder"
+    folder: "public/data/bilder"
+    slug: "{{fields.slug}}"
+    create: true
+    identifier_field: "title"
+    format: "json"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Slug",
+          name: "slug",
+          widget: "string",
+          pattern:
+            ["^[a-zA-Z0-9-_]+$", "Alphanumeric with dashes or underscores"],
+        }
+      - {
+          label: "Cover Image",
+          name: "coverImage",
+          widget: "image",
+          required: false,
+        }
