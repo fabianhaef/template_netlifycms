@@ -26,10 +26,3 @@ export async function getStaticProps(context) {
   }
 }
 
-// generates all available blog post URLs
-export async function getStaticPaths() {
-  return {
-    paths: bilder.map(bild => ({ params: { slug: bild.slug } })),
-    fallback: false
-  }
-}
