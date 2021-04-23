@@ -21,7 +21,7 @@ export default function VorstandPerson({ bild }) {
 export async function getStaticProps(context) {
   return {
     props: {
-      mitglied: bilder.find(bild => md.slug === context.params.slug)
+      mitglied: bilder.find(bild => bild.slug === context.params.slug)
     }
   }
 }
