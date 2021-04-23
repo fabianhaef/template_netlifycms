@@ -2,7 +2,7 @@ import Layout from '../components/Layout'
 import bilder from '../../public/data/bilder.json'
 
 
-export default function Galerie({ bilder = [] }) {
+export default function Galerie({ bilder }) {
   return (
     <Layout>
       <section className="section">

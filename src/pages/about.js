@@ -2,7 +2,7 @@ import Layout from '../components/Layout'
 import vorstand from '../../public/data/vorstand.json'
 
 
-export default function About({ vorstand = [] }) {
+export default function About({ vorstand }) {
   return (
     <Layout>
       <section className="section">
