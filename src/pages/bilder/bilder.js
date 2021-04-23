@@ -21,7 +21,7 @@ export default function BildPost({ bild }) {
 export async function getStaticProps(context) {
   return {
     props: {
-      schwinger: bilder.find(bild => schwbildinger.slug === context.params.slug)
+      bilder: bilder.find(bild => bild.slug === context.params.slug)
     }
   }
 }
