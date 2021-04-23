@@ -56,20 +56,12 @@ collections:
   - label: "Vorstand"
     name: "vorstand"
     folder: "public/data/vorstand"
-    slug: "{{fields.slug}}"
     create: true
     identifier_field: "title"
     format: "json"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Rolle", name: "rolle", widget: "string" }
-      - {
-          label: "Slug",
-          name: "slug",
-          widget: "string",
-          pattern:
-            ["^[a-zA-Z0-9-_]+$", "Alphanumeric with dashes or underscores"],
-        }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - {
           label: "Cover Image",
@@ -81,19 +73,11 @@ collections:
   - label: "Bilder"
     name: "bilder"
     folder: "public/data/bilder"
-    slug: "{{fields.slug}}"
     create: true
     identifier_field: "title"
     format: "json"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - {
-          label: "Slug",
-          name: "slug",
-          widget: "string",
-          pattern:
-            ["^[a-zA-Z0-9-_]+$", "Alphanumeric with dashes or underscores"],
-        }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - {
           label: "Cover Image",

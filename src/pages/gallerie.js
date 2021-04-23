@@ -18,12 +18,3 @@ export default function Galerie({ bilder = [] }) {
     </Layout>
   )
 }
-
-
-export async function getStaticProps() {
-  return {
-    props: {
-      bilder
-    }
-  }
-}
