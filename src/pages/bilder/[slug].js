@@ -25,4 +25,11 @@ export async function getStaticProps(context) {
     }
   }
 }
+// generates all available news post URLs
+export async function getStaticPaths() {
+  return {
+    paths: bilder.map(bild => ({ params: { slug: bild.slug } })),
+    fallback: false
+  }
+}
 
