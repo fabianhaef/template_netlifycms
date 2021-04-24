@@ -25,7 +25,7 @@ export default function Navbar() {
         <Link href="/agenda">
           <a>Agenda</a>
         </Link>
-        <Link href="/gallerie">
+        <Link href="/bilder">
           <a>Gallerie</a>
         </Link>
       </div>
