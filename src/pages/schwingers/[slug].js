@@ -6,7 +6,7 @@ const defaultCoverImage = '/img/34961490322_bb9611120a_k.jpg'
 
 export default function SchwingerPost({ schwinger }) {
   return (
-    <Layout title={`${schwinger.title} | Blog`}>
+    <Layout title={`${schwinger.title}`}>
       <Link href="/blog"><a className="button mb-4">◀️ All Entries</a></Link>
 
       <div className="cover-image" style={{ backgroundImage: `url(${schwinger.coverImage || defaultCoverImage})` }}>
