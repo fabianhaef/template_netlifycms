@@ -4,7 +4,7 @@ import bilder from '../../../public/data/bilder.json'
 
 const defaultCoverImage = '/img/34961490322_bb9611120a_k.jpg'
 
-export default function BilderPost({ bild }) {
+export default function BilderPost({ bilder }) {
   return (
     <Layout title={`${bild.title} | Blog`}>
       <div className="cover-image" style={{ backgroundImage: `url(${bild.coverImage || defaultCoverImage})` }}>
