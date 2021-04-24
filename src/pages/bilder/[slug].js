@@ -6,15 +6,15 @@ const defaultCoverImage = '/img/34961490322_bb9611120a_k.jpg'
 
 export default function BilderPost({ bilder }) {
   return (
-    <Layout title={`${bild.title} | Blog`}>
-      <div className="cover-image" style={{ backgroundImage: `url(${bild.coverImage || defaultCoverImage})` }}>
+    <Layout title={`${bilder.title} | Blog`}>
+      <div className="cover-image" style={{ backgroundImage: `url(${bilder.coverImage || defaultCoverImage})` }}>
         <div className="title-block">
-          <h1 className="title">{bild.title}</h1>
-          <em className="subtitle is-6 is-block">{bild.dateFormatted}</em>
+          <h1 className="title">{bilder.title}</h1>
+          <em className="subtitle is-6 is-block">{bilder.dateFormatted}</em>
         </div>
       </div>
 
-      <div className="content section" dangerouslySetInnerHTML={{ __html: bild.bodyHtml }} />
+      <div className="content section" dangerouslySetInnerHTML={{ __html: bilder.bodyHtml }} />
     </Layout>
   )
 }
