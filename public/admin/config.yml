@@ -10,9 +10,17 @@ collections:
     folder: "public/data/schwingers"
     create: true
     identifier_field: "title"
+    slug: "{{fields.slug}}"
     format: "json"
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Slug",
+          name: "slug",
+          widget: "string",
+          pattern:
+            ["^[a-zA-Z0-9-_]+$", "Alphanumeric with dashes or underscores"],
+        }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - {
           label: "Cover Image",
@@ -26,10 +34,18 @@ collections:
     folder: "public/data/news"
     create: true
     identifier_field: "title"
+    slug: "{{fields.slug}}"
     format: "json"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
+      - {
+          label: "Slug",
+          name: "slug",
+          widget: "string",
+          pattern:
+            ["^[a-zA-Z0-9-_]+$", "Alphanumeric with dashes or underscores"],
+        }
       - {
           label: "Cover Image",
           name: "coverImage",
@@ -42,6 +58,7 @@ collections:
     folder: "public/data/vorstand"
     create: true
     identifier_field: "title"
+    slug: "{{fields.slug}}"
     format: "json"
     fields:
       - { label: "Title", name: "title", widget: "string" }
@@ -63,6 +80,7 @@ collections:
     folder: "public/data/bilder"
     create: true
     format: "json"
+    slug: "{{fields.slug}}"
     fields:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - {
@@ -70,4 +88,11 @@ collections:
           name: "coverImage",
           widget: "image",
           required: false,
+        }
+      - {
+          label: "Slug",
+          name: "slug",
+          widget: "string",
+          pattern:
+            ["^[a-zA-Z0-9-_]+$", "Alphanumeric with dashes or underscores"],
         }
