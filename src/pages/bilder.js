@@ -3,7 +3,6 @@ import Layout from '../components/Layout'
 import bilder from '../../public/data/bilder.json'
 
 export default function Bilder({ bilder = [] }) {
-  { console.log(bilder) }
   return (
     <Layout title="athlethen">
       <h1 className="title">Gllaerie</h1>
