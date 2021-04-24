@@ -1,20 +1,27 @@
+import Link from 'next/link'
 import Layout from '../components/Layout'
 import bilder from '../../public/data/bilder.json'
 
-
-export default function Galerie({ bilder }) {
+export default function Gallery({ bilder = [] }) {
   return (
-    <Layout>
-      <section className="section">
-        <h1 className="title is-1">Gallerie</h1>
-        <h2 className="subtitle is-4">Schau dir unsere letzten Fotos an!</h2>
-
-        {bilder.map(bild => (
-          <div className="box">
-            <img src={bild.coverImage} width="256" height="256"></img>
-          </div>
-        ))}
-      </section>
+    <Layout title="athlethen">
+      <h1 className="title">Unsere Athlethen</h1>
+      {bilder.map(bild => (
+        <div className="box">
+          <h1 className="title">{bild.title}</h1>
+          <em className="subtitle is-6 is-block">{bild.dateFormatted}</em>
+          <div className="content section" dangerouslySetInnerHTML={{ __html: bild.bodyHtml }} />
+          <img src={bild.coverImage} alt={bild.title} width="256" height="256"></img>
+        </div>
+      ))}
     </Layout>
   )
+}
+
+export async function getStaticProps() {
+  return {
+    props: {
+      bilder
+    }
+  }
 }

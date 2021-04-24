@@ -4,7 +4,7 @@ import bilder from '../../../public/data/bilder.json'
 
 const defaultCoverImage = '/img/34961490322_bb9611120a_k.jpg'
 
-export default function VorstandPerson({ bild }) {
+export default function BilderPost({ bild }) {
   return (
     <Layout title={`${bild.title} | Blog`}>
       <div className="cover-image" style={{ backgroundImage: `url(${bild.coverImage || defaultCoverImage})` }}>
@@ -13,6 +13,7 @@ export default function VorstandPerson({ bild }) {
           <em className="subtitle is-6 is-block">{bild.dateFormatted}</em>
         </div>
       </div>
+
       <div className="content section" dangerouslySetInnerHTML={{ __html: bild.bodyHtml }} />
     </Layout>
   )
@@ -21,15 +22,15 @@ export default function VorstandPerson({ bild }) {
 export async function getStaticProps(context) {
   return {
     props: {
-      mitglied: bilder.find(bild => bild.slug === context.params.slug)
+      schwinger: bilder.find(bild => bild.slug === context.params.slug)
     }
   }
 }
-// generates all available news post URLs
+
+// generates all available blog post URLs
 export async function getStaticPaths() {
   return {
     paths: bilder.map(bild => ({ params: { slug: bild.slug } })),
     fallback: false
   }
 }
-
