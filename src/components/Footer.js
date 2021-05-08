@@ -13,9 +13,6 @@ export default function Navbar() {
       </div>
 
       <div className="two">
-        <Link href="/">
-          <a>Home</a>
-        </Link>
         <Link href="/news">
           <a>News</a>
         </Link>

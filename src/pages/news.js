@@ -5,7 +5,7 @@ import news from '../../public/data/news.json'
 
 export default function News({ news = [] }) {
   return (
-    <Layout title="Blog">
+    <Layout title="News">
       <h1 className="title">News</h1>
       <div className="grid-3-columns">
         {news.map(post => (
