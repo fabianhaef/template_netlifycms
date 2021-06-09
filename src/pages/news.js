@@ -7,7 +7,7 @@ export default function News({ news = [] }) {
   return (
     <Layout title="News">
       <h1 className="title">News</h1>
-      <div className="grid-3-columns">
+      <div className="column">
         {news.map(post => (
           <div className="box">
             <h1 className="title">{post.title}</h1>

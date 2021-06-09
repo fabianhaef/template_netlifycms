@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Navbar from './Navbar'
 import Footer from './Footer'
-import Link from 'next/link'
 
 export default function Layout({ title = 'Schwingclub Zug und Umgebung', children = [] }) {
   return (
