@@ -4,7 +4,7 @@ import Footer from './Footer'
 
 export default function Layout({ title = 'Schwingclub Zug und Umgebung', children = [] }) {
   return (
-    <div className="container">
+    <div className="container is-max-desktop">
       <Head>
         <title>{title}</title>
         <link rel="icon" href="/favicon.ico" />

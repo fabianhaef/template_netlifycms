@@ -6,14 +6,15 @@ export default function Schwinger({ schwingers = [] }) {
   return (
     <Layout title="athlethen">
       <h1 className="title">Unsere Athlethen</h1>
+      <p>Wir sind stolz, über XXX Aktivschwinger und XX Jungschwinger in unseren Reihen zu haben.</p>
+      <div className="grid-3-columns">
       {schwingers.map(schwinger => (
-        <div className="box">
+        <div className="card m-0">
           <h1 className="title">{schwinger.title}</h1>
-          <em className="subtitle is-6 is-block">{schwinger.dateFormatted}</em>
-          <div className="content section" dangerouslySetInnerHTML={{ __html: schwinger.bodyHtml }} />
-          <img src={schwinger.coverImage} alt={schwinger.title} width="256" height="256"></img>
+          <img src={schwinger.coverImage} alt={schwinger.title}></img>
         </div>
       ))}
+      </div>
     </Layout>
   )
 }

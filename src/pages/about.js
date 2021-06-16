@@ -16,12 +16,15 @@ export default function About({ vorstand }) {
       </section>
       <section title="Vorstand" className="section">
         <h1 className="title">Vorstand</h1>
+        <div>
+          
+        </div>
         <div className="grid-3-columns">
           {vorstand.map(mitglied => (
             <div key={mitglied.title} className="box">
               <article>
-                <h2 className="title is-3">{mitglied.title}</h2>
-                <h2 className="title is-4">{mitglied.rolle}</h2>
+                <h2 className="title is-4 m-b-1rem">{mitglied.title}</h2>
+                <h2 className="title is-5">{mitglied.rolle}</h2>
                 <img className="image" src={mitglied.coverImage} alt={mitglied.title} width="128"></img>
               </article>
             </div>
