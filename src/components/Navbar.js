@@ -2,7 +2,8 @@ import Link from 'next/link'
 
 export default function Navbar() {
   return (
-    <nav className="navbar" role="navigation" aria-label="main navigation">
+    <div className="container">
+      <nav className="navbar" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
         <Link href="/">
           <a className="navbar-item">
@@ -38,5 +39,6 @@ export default function Navbar() {
         </div>
       </div>
     </nav>
+    </div>
   )
 }

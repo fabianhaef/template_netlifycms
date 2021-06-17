@@ -7,6 +7,7 @@ export default function News({ news = [] }) {
   return (
     <Layout title="News">
       <h1 className="title">News</h1>
+      <h2 className="subtitle is-6">Hier finden Sie alle relevanten News zum Schwingclub Zug und Umgebung</h2>
       <div className="column">
         {news.map(post => (
           <div className="box">

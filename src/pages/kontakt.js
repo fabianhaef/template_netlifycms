@@ -9,7 +9,6 @@ export default function Kontakt() {
         <p className="content">Schwingclub Zug und Umgebung<br />Friedenstrasse 17<br />6340 Baar<br />Schweiz <br />
         <a href="mailto:praesi.sczug@gmail.com">praesi.sczug@gmail.com</a></p>
       </div>
-
     </section >
   </Layout >
   )

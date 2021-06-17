@@ -93,3 +93,21 @@ MY CSS
 .m-b-1rem {
   margin-bottom: 0.5rem;;
 }
+
+
+/* HERO SECTION */
+.hero-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 67%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
