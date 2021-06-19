@@ -5,15 +5,17 @@ import schwingers from '../../public/data/schwingers.json'
 export default function Schwinger({ schwingers = [] }) {
   return (
     <Layout title="athlethen">
-      <h1 className="title">Unsere Athlethen</h1>
-      <p>Wir sind stolz, über XXX Aktivschwinger und XX Jungschwinger in unseren Reihen zu haben.</p>
-      <div className="grid-3-columns">
-      {schwingers.map(schwinger => (
-        <div className="card m-0">
-          <h1 className="title">{schwinger.title}</h1>
-          <img src={schwinger.coverImage} alt={schwinger.title}></img>
+      <div className="container">
+        <h1 className="title">Unsere Athlethen</h1>
+        <p className="mb-4">Wir sind stolz, über 20 Aktivschwinger und 20 Jungschwinger in unseren Reihen zu haben.</p>
+        <div className="grid-3-columns">
+        {schwingers.map(schwinger => (
+          <div className="card m-0">
+            <h1 className="title">{schwinger.title}</h1>
+            <img src={schwinger.coverImage} alt={schwinger.title}></img>
+          </div>
+        ))}
         </div>
-      ))}
       </div>
     </Layout>
   )

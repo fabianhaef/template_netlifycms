@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Hero() {
   return (
     <section className="hero is-fullheight">
@@ -12,12 +14,13 @@ export default function Hero() {
           <p className="subtitle">
             Euer Schwingclub Zug und Umgebung
           </p>
-          <div className>
-            <button className="button is-link mr-4">Agenda</button>
+          <div>
+            <button className="button is-link mr-4">
+              Agenda
+            </button>
             <button className="button is-ghost">Kontaktieren Sie uns</button>
           </div>
       </div>
-
     </section>
   )
 }
