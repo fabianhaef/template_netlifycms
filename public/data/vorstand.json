@@ -1,51 +1,58 @@
 [
   {
-    "title": "Pascal Matter",
-    "rolle": "Präsident",
-    "coverImage": "/img/matter_pascal.jpg",
-    "body": "6313 Menzingen, Mobile: 078 801 80 77, ",
-    "bodyHtml": "<p>Seminarstrasse 6\n6313 Menzingen\nMobile: 078 801 80 77\npatrick.haefliger@hotmail.com\n</p>"
+    "title": "Fritz Fasler",
+    "slug": "fritz-fasler",
+    "rolle": "Aktuar/Passivkassier",
+    "coverImage": "/img/fritz_fasler.jpg",
+    "body": "",
+    "bodyHtml": "<p>Inwilerstrasse 27\n6340 Baar\nMobile: 079 649 39 82\nfritz.fasler@bluewin.ch\n</p>"
   },
   {
     "title": "Ladina Rominger",
+    "slug": "ladina-rominger",
     "rolle": "Medien/Protokoll",
     "coverImage": "/img/baumann_tanja.jpg",
-    "body": "6313 Menzingen, Mobile: 078 801 80 77, ",
+    "body": "",
     "bodyHtml": "<p>Seminarstrasse 6\n6313 Menzingen\nMobile: 078 801 80 77\npatrick.haefliger@hotmail.com\n</p>"
+  },
+  {
+    "title": "Martin Hugener",
+    "slug": "martin-hugener",
+    "rolle": "Materialverwalter",
+    "coverImage": "/img/hugener_martin.jpg",
+    "body": "",
+    "bodyHtml": "<p>Baarermattstrasse 13\n6340 Baar\nP: 041 761 29 69\n</p>"
   },
   {
     "title": "Pascal Matter",
+    "slug": "pascal-matter",
     "rolle": "Präsident",
     "coverImage": "/img/matter_pascal.jpg",
-    "body": "6313 Menzingen, Mobile: 078 801 80 77, ",
-    "bodyHtml": "<p>Seminarstrasse 6\n6313 Menzingen\nMobile: 078 801 80 77\npatrick.haefliger@hotmail.com\n</p>"
-  },
-  {
-    "title": "Ladina Rominger",
-    "rolle": "Medien/Protokoll",
-    "coverImage": "/img/baumann_tanja.jpg",
-    "body": "6313 Menzingen, Mobile: 078 801 80 77, ",
-    "bodyHtml": "<p>Seminarstrasse 6\n6313 Menzingen\nMobile: 078 801 80 77\npatrick.haefliger@hotmail.com\n</p>"
-  },
-  {
-    "title": "Pascal Matter",
-    "rolle": "Präsident",
-    "coverImage": "/img/matter_pascal.jpg",
-    "body": "6313 Menzingen, Mobile: 078 801 80 77, ",
-    "bodyHtml": "<p>Seminarstrasse 6\n6313 Menzingen\nMobile: 078 801 80 77\npatrick.haefliger@hotmail.com\n</p>"
-  },
-  {
-    "title": "Ladina Rominger",
-    "rolle": "Medien/Protokoll",
-    "coverImage": "/img/baumann_tanja.jpg",
-    "body": "6313 Menzingen, Mobile: 078 801 80 77, ",
+    "body": "",
     "bodyHtml": "<p>Seminarstrasse 6\n6313 Menzingen\nMobile: 078 801 80 77\npatrick.haefliger@hotmail.com\n</p>"
   },
   {
     "title": "Patrick Häfliger",
+    "slug": "patrick-haefliger",
     "rolle": "Technischer Leiter Aktive",
     "coverImage": "/img/patrick_haefliger.jpg",
     "body": "6313 Menzingen, Mobile: 078 801 80 77, ",
-    "bodyHtml": "<p>Seminarstrasse 6\n6313 Menzingen\nMobile: 078 801 80 77\npatrick.haefliger@hotmail.com\n</p>"
+    "bodyHtml": "<p>6313 Menzingen, Mobile: 078 801 80 77, </p>\n"
+  },
+  {
+    "title": "Peter Merz",
+    "slug": "peter-merz",
+    "rolle": "Technischer Leiter Jungschwinger",
+    "coverImage": "/img/peter_merz.jpg",
+    "body": "",
+    "bodyHtml": "<p>Windenboden 35\n6345 Neuheim\nMobile: 078 765 99 03\npeter.merz@schreinereimerz.ch\n</p>"
+  },
+  {
+    "title": "Philippe Zürcher",
+    "slug": "philippe-zuercher",
+    "rolle": "Vize-Präsident/ Kassier",
+    "coverImage": "/img/zuercher_philippe.jpg",
+    "body": "",
+    "bodyHtml": "<p>Büessikon 8\n6340 Baar\nMobile: 079 464 60 46\nph.zuercher@outlook.com\n</p>"
   }
 ]
