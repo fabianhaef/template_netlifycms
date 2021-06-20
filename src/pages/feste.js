@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Feste() {
   return (
     <Layout>
-      <section className="section">
+      <section className="section container">
         <div className="block">
           <h1 className="title is-1">Feste</h1>
           <h2 className="subtitle is-2">Abendschwingen</h2>

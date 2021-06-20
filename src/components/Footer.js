@@ -25,6 +25,9 @@ export default function Navbar() {
         <Link href="/bilder">
           <a>Gallerie</a>
         </Link>
+        <Link href="/feste">
+          <a>Feste</a>
+        </Link>
       </div>
 
       <div className="three">

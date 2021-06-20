@@ -5,8 +5,8 @@ import schwingfeste from '../../public/static/data/schwingfeste.js'
 
 export default function Agenda() {
   return (
-    <Layout>
-      <section className="section">
+    <Layout title="Agenda">
+      <section className="section container">
         <h1 className="title">Agenda</h1>
         <h2 className="subtitle">Schwingfeste</h2>
         <h3 className="subtitle is-6">Vom Schwingclub Zug organisiert</h3>

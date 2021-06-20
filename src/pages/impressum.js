@@ -3,7 +3,7 @@ import Layout from '../components/Layout'
 export default function Impressum() {
   return (
     <Layout>
-      <section className="section">
+      <section className="section container">
         <div className="block">
           <h1 className="title is-1">Impressum</h1>
           <h2 className="subtitle is-3">Kontakt-Adresse</h2>
