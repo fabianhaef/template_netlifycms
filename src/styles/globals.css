@@ -2,8 +2,9 @@
 
 :root {
   --black: #222222;
+  --blue: #00A7DE;
+  --background-color: #00A7DE;
 }
-
 
 .main-navbar {
   margin-top: 1rem;
@@ -29,6 +30,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
 }
+
 .cover-image {
   background-size: cover;
   background-position: 50% 50%;
@@ -36,12 +38,14 @@
   display: flex;
   margin-bottom: 1rem;
 }
+
 .title-block {
   background-color: rgba(0, 0, 0, 0.6);
   padding: 1rem;
   display: inline-block;
   margin: auto auto auto 1rem;
 }
+
 .title-block .title, .title-block .subtitle {
   color: white;
 }
@@ -110,4 +114,8 @@ MY CSS
   left: 67%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+.main-button {
+  background-color: var(--blue);
 }

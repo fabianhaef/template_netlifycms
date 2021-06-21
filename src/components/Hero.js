@@ -15,7 +15,7 @@ export default function Hero() {
             Euer Schwingclub Zug und Umgebung
           </p>
           <div>
-            <button className="button is-link mr-4">
+            <button className="button is-link mr-4 main-button">
               Agenda
             </button>
             <button className="button is-ghost">Kontaktieren Sie uns</button>
