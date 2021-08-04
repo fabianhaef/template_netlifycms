@@ -1,11 +1,15 @@
 import Link from 'next/link'
+import news from '../../public/data/news.json'
 
 export default function Hero() {
+  const fiveNewsArticles = news.slice(0,5)
+  console.log(fiveNewsArticles)
+
   return (
     <section className="hero is-fullheight">
-      <div>
-        <img src="./static/images/Schwinger.png" className="hero-image" />
-      </div> 
+      
+      <img src="./static/images/Schwinger.png" className="hero-image" />
+    
       
       <div className="hero-text">
           <p className="title">
@@ -23,4 +27,12 @@ export default function Hero() {
       </div>
     </section>
   )
+}
+
+export async function getStaticProps() {
+  return {
+    props: {
+      news
+    }
+  }
 }

@@ -34,9 +34,8 @@ export default function Navbar() {
         <a>
           <img src="./static/logo.jpg" width="128" height="128" />
         </a>
-
         <Link href="https://github.com/fabianhaef">
-          <a>made with &#x2764; by fh</a>
+          <a className="made-by-fh">made by fh</a>
         </Link>
 
       </div>

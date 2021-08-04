@@ -5,7 +5,7 @@ import Hero from './Hero'
 
 export default function Layout({ title = 'Schwingclub Zug und Umgebung', children = [] }) {
   return (
-    <div className="">
+    <div>
       <Head>
         <title>{title}</title>
         <link rel="icon" href="/favicon.ico" />

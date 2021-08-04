@@ -4,6 +4,14 @@
   --black: #222222;
   --blue: #00A7DE;
   --background-color: #00A7DE;
+
+
+  --primary-100: rgba(0, 167, 222, 1);
+  --primary-90: rgba(0, 167, 222, 0.9);
+  --primary-70: rgba(0, 167, 222, 0.7);
+  --primary-50: rgba(0, 167, 222, 0.5);
+  --primary-30: rgba(0, 167, 222, 0.3);
+  --primary-10: rgba(0, 167, 222, 0.1);
 }
 
 .main-navbar {
@@ -94,9 +102,6 @@ MY CSS
 
 /* ABOUT */
 
-.m-b-1rem {
-  margin-bottom: 0.5rem;;
-}
 
 
 /* HERO SECTION */
@@ -117,5 +122,18 @@ MY CSS
 }
 
 .main-button {
-  background-color: var(--blue);
+  background-color: var(--primary-100);
+}
+
+
+.border-box {
+  border: 1.5px solid var(--primary-100);
+}
+
+
+
+
+/*  Footer */
+.made-by-fh {
+  font-size: 12px;
 }
