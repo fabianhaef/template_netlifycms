@@ -130,6 +130,45 @@ MY CSS
   border: 1.5px solid var(--primary-100);
 }
 
+.title-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+  align-items: center;
+}
+
+.title-bar-link{
+  padding: 8px;
+  border-radius: 4px;
+  background-color: rgba(0, 167, 222, 0.1);
+}
+
+.bg-primary-100 {
+  background-color: var(--primary-100);
+}
+
+.bg-primary-90 {
+  background-color: var(--primary-90);
+}
+
+.bg-primary-70 {
+  background-color: var(--primary-70);
+}
+
+.bg-primary-50 {
+  background-color: var(--primary-50);
+}
+
+
+.bg-primary-30 {
+  background-color: var(--primary-30);
+}
+
+.bg-primary-10 {
+  background-color: var(--primary-10);
+}
+
+
 
 
 
@@ -137,3 +176,5 @@ MY CSS
 .made-by-fh {
   font-size: 12px;
 }
+
+

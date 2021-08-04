@@ -5,9 +5,7 @@ import news from '../../public/data/news.json'
 
 
 export default function News({ news = [] }) {
-  const filteredNews = news
-  console.log(filteredNews)
-
+  
   return (
     <Layout title="News">
       <div className="container">
@@ -22,12 +20,9 @@ export default function News({ news = [] }) {
                     <div dangerouslySetInnerHTML={{ __html: post.bodyHtml }} />
                   </div>
                   <div className="column">
-                    <img src={post.coverImage} alt={post.title} height="256" width="256"></img>
+                    <img className="image" src={post.coverImage} alt={post.title} height="256" width="256"></img>
                   </div>
                 </div>
-              
-                
-  
               </div>
           ))}
         </div>
