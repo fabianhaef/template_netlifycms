@@ -43,40 +43,76 @@ export default function Hero() {
             <div class="tile">
               <div class="tile is-parent is-vertical">
                 <article class="tile is-child notification bg-primary-100">
-                  <p class="title is-4">{firstArticle.title}</p>
-                  <p class="subtitle is-5">Top tile</p>
+                  <p class="title is-5">{firstArticle.title}</p>
+                  <p class="subtitle is-6">{firstArticle.datum}</p>
+                  <div class="content">
+                    {firstArticle.body.substring(0, 100)}...
+                  </div>
+                  <Link href="/news/[slug]" as={`/news/${fifthArticle.slug}`}>
+                    <button className="button button-secondary">
+                      <a id="anchor-tag" className="anchor-tag">Zum Artikel</a>
+                    </button>
+                  </Link>
                 </article>
                 <article class="tile is-child notification bg-primary-50">
-                  <p class="title is-4">{firstArticle.title}</p>
-                  <p class="subtitle is-5">Bottom tile</p>
+                  <p class="title is-5">{secondArticle.title}</p>
+                  <p class="subtitle is-6">{secondArticle.datum}</p>
+                  <div class="content">
+                    {secondArticle.body.substring(0, 100)}...
+                  </div>
+                  <Link href="/news/[slug]" as={`/news/${fifthArticle.slug}`}>
+                    <button className="button button-secondary">
+                      <a id="anchor-tag" className="anchor-tag">Zum Artikel</a>
+                    </button>
+                  </Link>
                 </article>
               </div>
               <div class="tile is-parent">
                 <article class="tile is-child notification bg-primary-10">
-                  <p class="title is-4">Middle tile</p>
-                  <p class="subtitle is-5">With an image</p>
-                  <figure class="image is-4by3">
-                    <img src="https://bulma.io/images/placeholders/640x480.png" />
+                  <p class="title is-5">{thirdArticle.title}</p>
+                  <p class="subtitle is-6">{thirdArticle.datum}</p>
+                  <div class="content">
+                    {thirdArticle.body.substring(0, 100)}...
+                  </div>
+                  <figure class="image is-4by3 mb-4">
+                    <img src={thirdArticle.coverImage} />
                   </figure>
+                  <Link href="/news/[slug]" as={`/news/${fifthArticle.slug}`}>
+                    <button className="button button-secondary">
+                      <a id="anchor-tag" className="anchor-tag">Zum Artikel</a>
+                    </button>
+                  </Link>
                 </article>
               </div>
             </div>
             <div class="tile is-parent">
               <article class="tile is-child notification bg-primary-70">
-                <p class="title">Wide tile</p>
-                <p class="subtitle">Aligned with the right tile</p>
+                <p class="title is-5">{fourthArticle.title}</p>
+                <p class="subtitle is-6">{fourthArticle.datum}</p>
                 <div class="content">
+                  {fourthArticle.body.substring(0, 100)}...
                 </div>
+                <Link href="/news/[slug]" as={`/news/${fifthArticle.slug}`}>
+                    <button className="button button-secondary">
+                      <a id="anchor-tag" className="anchor-tag">Zum Artikel</a>
+                    </button>
+                  </Link>
               </article>
             </div>
           </div>
           <div class="tile is-parent">
             <article class="tile is-child notification bg-primary-30">
               <div class="content">
-                <p class="title">Tall tile</p>
-                <p class="subtitle">With even more content</p>
+                <p class="title is-5">{fifthArticle.title}</p>
+                <p class="subtitle is-6">{fifthArticle.datum}</p>
                 <div class="content">
+                  {fifthArticle.body.substring(0, 100)}...
                 </div>
+                  <Link href="/news/[slug]" as={`/news/${fifthArticle.slug}`}>
+                    <button className="button button-secondary">
+                      <a id="anchor-tag" className="anchor-tag">Zum Artikel</a>
+                    </button>
+                  </Link>
               </div>
             </article>
           </div>
