@@ -8,9 +8,9 @@ export default function About({ vorstand }) {
 
   return (
     <Layout>
-      <section className="section container">
-        <h1 className="title is-1">Über uns</h1>
-        <h2 className="subtitle is-2">Entstehungsgeschichte</h2>
+      <section className="container section-layout">
+        <h1 className="title mb-6">Über uns</h1>
+        <h2 className="subtitle mb-4">Entstehungsgeschichte</h2>
         <p>
           Schwingclub Zug und Umgebung - ein Baarer Verein? <strong>Ja schon.</strong>
           <br></br>
@@ -19,14 +19,40 @@ export default function About({ vorstand }) {
           Aktuell wird der Verein von Christoph Blattmann präsidiert. Mit der Umbenennung in Schwingclub Zug und Umgebung wurden die Voraussetzungen geschaffen, um in Baar ein Trainingslokal beantragen zu können. Dazu ist zu sagen, dass bereits 1970 den Baarer Schwingern ein Trainingslokal zur Verfügung gestellt worden ist.
         </p>
       </section>
-      <section title="Vorstand" className="section container">
-        <h1 className="title">Vorstand</h1>        
+      <section className="container section-layout">
+        <nav className="level is-mobile">
+          <div className="level-item has-text-centered">
+            <div>
+              <p className="heading">Gegründet</p>
+              <p className="title">1973</p>
+            </div>
+          </div>
+          <div className="level-item has-text-centered">
+            <div>
+              <p className="heading">Mitglieder</p>
+              <p className="title">+125</p>
+            </div>
+          </div>
+          <div className="level-item has-text-centered">
+            <div>
+              <p className="heading">Mitglieder</p>
+              <p className="title">+25</p>
+            </div>
+          </div>
+        </nav>
+
+      </section>
+      <section title="Vorstand" className="container">
+        <h2 className="subtitle subtitle mb-4">Vorstand</h2>        
         <div className="grid-3-columns">
           {vorstand.map(mitglied => (
             <div key={mitglied.title} className="box border-box">
-              <article>
-                <h2 className="title is-5 mb-3">{mitglied.title}</h2>
-                <h3 className="title is-6 mb-2">{mitglied.rolle}</h3>
+              <article className="vorstand">
+                <div>
+                  <h2 className="title is-5 mb-3">{mitglied.title}</h2>
+                  <h3 className="title is-6 mb-2">{mitglied.rolle}</h3>
+                  <p></p>
+                </div>
                 <img className="image" src={mitglied.coverImage} alt={mitglied.title} width="128"></img>
               </article>
             </div>

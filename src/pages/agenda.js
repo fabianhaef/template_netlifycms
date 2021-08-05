@@ -6,10 +6,13 @@ import schwingfeste from '../../public/static/data/schwingfeste.js'
 export default function Agenda() {
   return (
     <Layout title="Agenda">
-      <section className="section container">
-        <h1 className="title">Agenda</h1>
-        <h2 className="subtitle">Schwingfeste</h2>
-        <h3 className="subtitle is-6">Vom Schwingclub Zug organisiert</h3>
+      <section className="container">
+        <h1 className="title mb-6">Agenda</h1>
+        <div className="title-bar mb-4">
+          <h2 className="subtitle" id="title-bar-no-margin">Schwingfeste</h2>
+          <h3 className="subtitle title-bar-info">Vom Schwingclub Zug organisiert</h3>
+        </div>
+        
 
         <div className="card">
           <h3 className="card-header-title">Buebeschwinget Baar</h3>
@@ -72,8 +75,9 @@ export default function Agenda() {
         </div>
 
         <hr />
-
-        <h2 className="subtitle">Trainings</h2>
+        <div className="title-bar mb-4">
+          <h2 className="subtitle" id="title-bar-no-margin">Trainings</h2>
+        </div>
         <div className="card-container">
           <div className="card">
             <h3 className="card-header-title">Jungschwinger 8- bis 15 jährig</h3>
