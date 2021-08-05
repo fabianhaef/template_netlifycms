@@ -14,9 +14,11 @@ export default function About({ vorstand }) {
         <p>
           Schwingclub Zug und Umgebung - ein Baarer Verein? <strong>Ja schon.</strong>
           <br></br>
-          Die Organisation zeichnet für die Durchführung des Abendschwingens und des Bubenschwingens verantwortlich und ihre Mitgliederliste trägt viele Namen bekannter Schwingergrössen aus Baar.
+          Die Organisation zeichnet für die Durchführung des Abendschwingens und des Bubenschwingens verantwortlich und ihre Mitgliederliste 
+          trägt viele Namen bekannter Schwingergrössen aus Baar.<br />
           Der Schwingclub Zug und Umgebung ist im Jahr 1973 aus dem Schwingclub Zug, hervorgegangen. Die Generalversammlung hat sich damals für die Namensänderung ausgesprochen. An dieser GV legte der Baarer Dominik Weber die präsidialen Aufgaben nieder. Zum Nachfolger ernannt wurde Karl Bürgler.
-          Aktuell wird der Verein von Christoph Blattmann präsidiert. Mit der Umbenennung in Schwingclub Zug und Umgebung wurden die Voraussetzungen geschaffen, um in Baar ein Trainingslokal beantragen zu können. Dazu ist zu sagen, dass bereits 1970 den Baarer Schwingern ein Trainingslokal zur Verfügung gestellt worden ist.
+          Aktuell wird der Verein von Christoph Blattmann präsidiert. <br />
+          Mit der Umbenennung in Schwingclub Zug und Umgebung wurden die Voraussetzungen geschaffen, um in Baar ein Trainingslokal beantragen zu können. Dazu ist zu sagen, dass bereits 1970 den Baarer Schwingern ein Trainingslokal zur Verfügung gestellt worden ist.
         </p>
       </section>
       <section className="container section-layout">
