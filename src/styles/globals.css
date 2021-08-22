@@ -1,6 +1,8 @@
 @import 'https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;900&display=swap');
 @import '../styles/vorstand.css';
 @import '../styles/tiles.css';
+
 
 :root {
   --black: #222222;
@@ -22,18 +24,31 @@
   --secondary-50: rgba(246, 224, 186, 0.5);
   --secondary-30: rgba(246, 224, 186, 0.3);
   --secondary-10: rgba(246, 224, 186, 0.1);
-
 }
+
+*, body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+
+
+/*NAVBAR stuff*/
 
 .main-navbar {
   margin-top: 1rem;
 }
+
 .navbar-logo {
   border-radius: 100%;
   width: 4rem;
   height: 4rem;
   max-height: 4rem !important;
 }
+
 .navbar-item {
   font-size: 1.4rem;
 }
@@ -115,12 +130,17 @@
   flex-wrap: wrap;
 }
 
-.news-article {
-  
+
+
+
+/** globals */
+.button-primary {
+  color: var(--black);
+  background-color: var(--primary-100);
+  border: 1px solid var(--primary-100);
+  width: 100%;
+  padding: 8px;
 }
-
-
-
 
 
 
@@ -181,15 +201,6 @@
 
 }
 
-.main-button {
-  background-color: var(--primary-100);
-}
-
-
-.border-box {
-  border: 1.5px solid var(--primary-100);
-}
-
 .title-bar {
   display: flex;
   flex-direction: row;
@@ -215,6 +226,11 @@
   margin: 0;
 }
 
+.hero-buttons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 
 
 .bg-primary {
@@ -227,11 +243,9 @@
 
 
 
-
-
 /*  Footer */
 .made-by-fh {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 

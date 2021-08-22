@@ -5,30 +5,6 @@ backend:
 media_folder: public/img
 public_folder: img
 collections:
-  - label: "Schwinger"
-    name: "schwingers"
-    folder: "public/data/schwingers"
-    create: true
-    identifier_field: "title"
-    slug: "{{fields.slug}}"
-    format: "json"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - {
-          label: "Slug",
-          name: "slug",
-          widget: "string",
-          pattern:
-            ["^[a-zA-Z0-9-_]+$", "Alphanumeric with dashes or underscores"],
-        }
-      - {
-          label: "Cover Image",
-          name: "coverImage",
-          widget: "image",
-        }
-      - { label: "Body", name: "body", widget: "markdown" }
-
-
   - label: "News"
     name: "news"
     folder: "public/data/news"

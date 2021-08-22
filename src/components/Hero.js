@@ -1,4 +1,6 @@
 import React from 'react'
+import Link from 'next/link'
+
 import Tiles from '../components/Tiles'
 import Fest from '../components/Fest'
 
@@ -14,12 +16,6 @@ export default function Hero() {
           <p className="subtitle">
             Euer Schwingclub Zug und Umgebung
           </p>
-          <div>
-            <button className="button is-link mr-4 butn">
-              Agenda
-            </button>
-            <button className="button is-ghost">Kontaktieren Sie uns</button>
-          </div>
         </div>
       </section>
       <Tiles />
