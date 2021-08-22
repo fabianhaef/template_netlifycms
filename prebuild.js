@@ -6,7 +6,6 @@ const html = require('remark-html')
 // we'll look for any `.json` files in the `input` folder, then output to a single json file
 const scanDirectories = [
   { inputDirectory: 'public/data/vorstand', outputFile: 'public/data/vorstand.json' },
-  { inputDirectory: 'public/data/schwingers', outputFile: 'public/data/schwingers.json' },
   { inputDirectory: 'public/data/bilder', outputFile: 'public/data/bilder.json' },
   { inputDirectory: 'public/data/news', outputFile: 'public/data/news.json' },
 ]
