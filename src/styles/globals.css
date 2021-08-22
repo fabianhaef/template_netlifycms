@@ -1,10 +1,11 @@
 @import 'https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css';
 @import '../styles/vorstand.css';
+@import '../styles/tiles.css';
 
 :root {
   --black: #222222;
-  --blue: #00A7DE;
-  --background-color: #00A7DE;
+  --blue: #00A8DF;
+  --background-color: #E8E8E8;
 
 
   --primary-100: rgba(0, 167, 222, 1);
@@ -12,7 +13,7 @@
   --primary-70: rgba(0, 167, 222, 0.7);
   --primary-50: rgba(0, 167, 222, 0.5);
   --primary-30: rgba(0, 167, 222, 0.3);
-  --primary-10: rgba(0, 167, 222, 0.1);
+  --primary-10: rgba(0, 168, 223, 0.1);
 
 
   --secondary-100: rgba(246, 224, 186, 1);
@@ -109,7 +110,14 @@
   line-height: 33px;
 }
 
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.news-article {
+  
+}
 
 
 
@@ -209,28 +217,12 @@
 
 
 
-.bg-primary-100 {
-  background-color: var(--primary-100);
+.bg-primary {
+  background-color: var(--background-color);
 }
 
-.bg-primary-90 {
-  background-color: var(--primary-90);
-}
-
-.bg-primary-70 {
-  background-color: var(--primary-70);
-}
-
-.bg-primary-50 {
-  background-color: var(--primary-50);
-}
-
-.bg-primary-30 {
-  background-color: var(--primary-30);
-}
-
-.bg-primary-10 {
-  background-color: var(--primary-10);
+.bg-gray-100 {
+  background-color: var(--gray);
 }
 
 

@@ -1,4 +1,5 @@
 import Layout from '../components/Layout'
+import VorstandsMitglied from '../components/VorstandsMitglied'
 import vorstand from '../../public/data/vorstand.json'
 
 
@@ -32,32 +33,23 @@ export default function About({ vorstand }) {
           <div className="level-item has-text-centered">
             <div>
               <p className="heading">Mitglieder</p>
-              <p className="title">+125</p>
+              <p className="title">circa 200</p>
             </div>
           </div>
           <div className="level-item has-text-centered">
             <div>
-              <p className="heading">Mitglieder</p>
-              <p className="title">+25</p>
+              <p className="heading">Aktivschwinger</p>
+              <p className="title">20</p>
             </div>
           </div>
         </nav>
 
       </section>
       <section title="Vorstand" className="container">
-        <h2 className="subtitle subtitle mb-4">Vorstand</h2>        
+        <h2 className="subtitle mb-4">Vorstand</h2>        
         <div className="grid-3-columns">
           {vorstand.map(mitglied => (
-            <div key={mitglied.title} className="box border-box">
-              <article className="vorstand">
-                <div>
-                  <h2 className="title is-5 mb-3">{mitglied.title}</h2>
-                  <h3 className="title is-6 mb-2">{mitglied.rolle}</h3>
-                  <p></p>
-                </div>
-                <img className="image" src={mitglied.coverImage} alt={mitglied.title} width="128"></img>
-              </article>
-            </div>
+            <VorstandsMitglied mitglied={mitglied}/>
           ))}
         </div>
         <div className="mb-6"></div>

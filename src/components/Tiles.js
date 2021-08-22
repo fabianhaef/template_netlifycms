@@ -26,25 +26,25 @@ export default function Tiles() {
       <div className="tile is-vertical is-8">
         <div className="tile">
           <div className="tile is-parent is-vertical">
-            <article className="tile is-child notification bg-primary-100 box">
+            <article className="tile is-child notification bg-primary-10 box">
               <p className="title is-5">{firstArticle.title}</p>
               <p className="subtitle is-6">{firstArticle.datum}</p>
               <div className="content">
                 {firstArticle.body.substring(0, 100)}...
               </div>
-              <Link href="/news/[slug]" as={`/news/${fifthArticle.slug}`}>
+              <Link href="/news/[slug]" as={`/news/${firstArticle.slug}`}>
                 <button className="button button-secondary">
                   <a id="anchor-tag" className="anchor-tag">Zum Artikel</a>
                 </button>
               </Link>
             </article>
-            <article className="tile is-child notification bg-primary-50 box">
+            <article className="tile is-child notification bg-primary-10 box">
               <p className="title is-5">{secondArticle.title}</p>
               <p className="subtitle is-6">{secondArticle.datum}</p>
               <div className="content">
                 {secondArticle.body.substring(0, 100)}...
               </div>
-              <Link href="/news/[slug]" as={`/news/${fifthArticle.slug}`}>
+              <Link href="/news/[slug]" as={`/news/${secondArticle.slug}`}>
                 <button className="button button-secondary">
                   <a id="anchor-tag" className="anchor-tag">Zum Artikel</a>
                 </button>
@@ -61,7 +61,7 @@ export default function Tiles() {
               <figure className="image is-4by3 mb-4">
                 <img src={thirdArticle.coverImage} />
               </figure>
-              <Link href="/news/[slug]" as={`/news/${fifthArticle.slug}`}>
+              <Link href="/news/[slug]" as={`/news/${thirdArticle.slug}`}>
                 <button className="button button-secondary">
                   <a id="anchor-tag" className="anchor-tag">Zum Artikel</a>
                 </button>
@@ -70,13 +70,13 @@ export default function Tiles() {
           </div>
         </div>
         <div className="tile is-parent">
-          <article class="tile is-child notification bg-primary-70 box">
+          <article className="tile is-child notification bg-primary-10 box">
             <p className="title is-5">{fourthArticle.title}</p>
             <p className="subtitle is-6">{fourthArticle.datum}</p>
             <div className="content">
               {fourthArticle.body.substring(0, 100)}...
             </div>
-            <Link href="/news/[slug]" as={`/news/${fifthArticle.slug}`}>
+            <Link href="/news/[slug]" as={`/news/${fourthArticle.slug}`}>
                 <button className="button button-secondary">
                   <a id="anchor-tag" className="anchor-tag">Zum Artikel</a>
                 </button>
@@ -85,7 +85,7 @@ export default function Tiles() {
         </div>
       </div>
       <div className="tile is-parent">
-        <article className="tile is-child notification bg-primary-30 box">
+        <article className="tile is-child notification bg-primary-10 box">
           <div className="content">
             <p className="title is-5">{fifthArticle.title}</p>
             <p className="subtitle is-6">{fifthArticle.datum}</p>
