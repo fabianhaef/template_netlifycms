@@ -1,6 +1,5 @@
 import Layout from '../components/Layout'
 import Link from 'next/link'
-import schwingfeste from '../../public/static/data/schwingfeste.js'
 
 
 export default function Agenda() {

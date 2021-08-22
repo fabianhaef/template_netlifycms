@@ -59,6 +59,7 @@ body {
   border-top: solid 1px lightgrey;
   border-bottom: solid 1px lightgrey;
 }
+
 .grid-two-column {
   display: grid;
   grid-template-columns: 1fr 1fr;
