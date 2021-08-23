@@ -1,8 +1,8 @@
 {
   "title": "Ladina Rominger",
-  "slug": "ladina-rominger",
   "rolle": "Medien/Protokoll",
-  "coverImage": "/img/baumann_tanja.jpg",
-  "body": "",
-  "bodyHtml": "<p>Seminarstrasse 6\n6313 Menzingen\nMobile: 078 801 80 77\npatrick.haefliger@hotmail.com\n</p>"
+  "adress": "Seminarstrasse 6",
+  "place": "6313 Menzingen ",
+  "phone": "Mobile: 078 801 80 77",
+  "coverImage": "/img/baumann_tanja.jpg"
 }
