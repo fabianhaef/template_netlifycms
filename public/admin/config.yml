@@ -40,7 +40,6 @@ collections:
     folder: "public/data/vorstand"
     create: true
     identifier_field: "title"
-    slug: "{{fields.slug}}"
     format: "json"
     fields:
       - { label: "Title", name: "title", widget: "string" }
