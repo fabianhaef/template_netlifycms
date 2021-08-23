@@ -33,7 +33,7 @@ function processFiles({ inputDirectory, outputFile }) {
       jsonData.bodyHtml = (await remark().use(html).process(jsonData.body)).toString()
     }
     if (jsonData.date) {
-      jsonData.dateFormatted = (new Date(jsonData.date)).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })
+      jsonData.dateFormatted = (new Date(jsonData.date)).toLocaleDateString('de-DE', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })
     }
 
     // write transformations back to original file
