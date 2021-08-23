@@ -3,7 +3,7 @@ import React from 'react'
 function VorstandsMitglied({mitglied}) {
   console.log(mitglied)
   return (
-    <div key={mitglied.title} className="box bg-primary">
+    <div key={mitglied.title} className="box bg-primary-10 make-it-slow">
     <article className="vorstand">
       <div>
           <h2 className="title is-5 mb-3">{mitglied.title}</h2>

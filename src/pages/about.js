@@ -32,14 +32,14 @@ export default function About({ vorstand }) {
           </div>
           <div className="level-item has-text-centered">
             <div>
-              <p className="heading">Mitglieder</p>
-              <p className="title">circa 200</p>
+              <p className="heading">Trainingslokal</p>
+              <p className="title">Schwinghalle Schützenmatt</p>
             </div>
           </div>
           <div className="level-item has-text-centered">
             <div>
-              <p className="heading">Aktivschwinger</p>
-              <p className="title">20</p>
+              <p className="heading">Mitglieder</p>
+              <p className="title">circa 200</p>
             </div>
           </div>
         </nav>
