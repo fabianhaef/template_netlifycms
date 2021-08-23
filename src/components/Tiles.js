@@ -26,33 +26,29 @@ export default function Tiles() {
       <div className="tile is-vertical is-8">
         <div className="tile">
           <div className="tile is-parent is-vertical">
-            <article className="tile is-child notification bg-primary-10 box">
+          <Link href="/news/[slug]" as={`/news/${firstArticle.slug}`}>
+            <article className="tile is-child bg-primary-10 box make-it-slow">
               <p className="title is-5">{firstArticle.title}</p>
               <p className="subtitle is-6">{firstArticle.datum}</p>
               <div className="content">
                 {firstArticle.body.substring(0, 100)}...
-              </div>
-              <Link href="/news/[slug]" as={`/news/${firstArticle.slug}`}>
-                <button className="button button-secondary">
-                  <a id="anchor-tag" className="anchor-tag">Zum Artikel</a>
-                </button>
-              </Link>
+              </div>              
             </article>
-            <article className="tile is-child notification bg-primary-10 box">
+          </Link>
+          <Link href="/news/[slug]" as={`/news/${secondArticle.slug}`}>
+            <article className="tile is-child bg-primary-10 box make-it-slow">
               <p className="title is-5">{secondArticle.title}</p>
               <p className="subtitle is-6">{secondArticle.datum}</p>
               <div className="content">
                 {secondArticle.body.substring(0, 100)}...
               </div>
-              <Link href="/news/[slug]" as={`/news/${secondArticle.slug}`}>
-                <button className="button button-secondary">
-                  <a id="anchor-tag" className="anchor-tag">Zum Artikel</a>
-                </button>
+              </article>
               </Link>
-            </article>
           </div>
           <div className="tile is-parent">
-            <article className="tile is-child notification bg-primary-10 box">
+          <Link href="/news/[slug]" as={`/news/${thirdArticle.slug}`}>
+
+            <article className="tile is-child bg-primary-10 box make-it-slow">
               <p className="title is-5">{thirdArticle.title}</p>
               <p className="subtitle is-6">{thirdArticle.datum}</p>
               <div className="content">
@@ -61,44 +57,33 @@ export default function Tiles() {
               <figure className="image is-4by3 mb-4">
                 <img src={thirdArticle.coverImage} />
               </figure>
-              <Link href="/news/[slug]" as={`/news/${thirdArticle.slug}`}>
-                <button className="button button-secondary">
-                  <a id="anchor-tag" className="anchor-tag">Zum Artikel</a>
-                </button>
-              </Link>
             </article>
+            </Link>
           </div>
         </div>
         <div className="tile is-parent">
-          <article className="tile is-child notification bg-primary-10 box">
-            <p className="title is-5">{fourthArticle.title}</p>
-            <p className="subtitle is-6">{fourthArticle.datum}</p>
-            <div className="content">
-              {fourthArticle.body.substring(0, 100)}...
-            </div>
-            <Link href="/news/[slug]" as={`/news/${fourthArticle.slug}`}>
-                <button className="button button-secondary">
-                  <a id="anchor-tag" className="anchor-tag">Zum Artikel</a>
-                </button>
-              </Link>
+          <Link href="/news/[slug]" as={`/news/${fourthArticle.slug}`}>
+            <article className="tile is-child  bg-primary-10 box make-it-slow">
+              <p className="title is-5">{fourthArticle.title}</p>
+              <p className="subtitle is-6">{fourthArticle.datum}</p>
+              <div className="content">
+                {fourthArticle.body.substring(0, 100)}...
+              </div>
           </article>
+            </Link>
         </div>
       </div>
       <div className="tile is-parent">
-        <article className="tile is-child notification bg-primary-10 box">
-          <div className="content">
-            <p className="title is-5">{fifthArticle.title}</p>
-            <p className="subtitle is-6">{fifthArticle.datum}</p>
-            <div className="content">
-              {fifthArticle.body.substring(0, 100)}...
-            </div>
-              <Link href="/news/[slug]" as={`/news/${fifthArticle.slug}`}>
-                <button className="button button-secondary">
-                  <a id="anchor-tag" className="anchor-tag">Zum Artikel</a>
-                </button>
-              </Link>
-          </div>
-        </article>
+        <Link href="/news/[slug]" as={`/news/${fifthArticle.slug}`}>
+            <article className="tile is-child  bg-primary-10 box make-it-slow">
+              <div className="content">
+                <p className="title is-5">{fifthArticle.title}</p>
+                <p className="subtitle is-6">{fifthArticle.datum}</p>
+                <div className="content">
+                  {fifthArticle.body.substring(0, 100)}...
+                </div>          </div>
+            </article>
+          </Link>
       </div>
     </div>
   </section>

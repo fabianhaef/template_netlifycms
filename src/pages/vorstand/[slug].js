@@ -6,13 +6,7 @@ const defaultCoverImage = '/img/34961490322_bb9611120a_k.jpg'
 export default function VorstandPerson({ mitglied }) {
   return (
     <Layout title={`${mitglied.title} | Blog`}>
-      <div className="cover-image" style={{ backgroundImage: `url(${mitglied.coverImage || defaultCoverImage})` }}>
-        <div className="title-block">
-          <h1 className="title">{mitglied.title}</h1>
-          <em className="subtitle is-6 is-block">{mitglied.dateFormatted}</em>
-        </div>
-      </div>
-      <div className="content section" dangerouslySetInnerHTML={{ __html: mitglied.bodyHtml }} />
+
     </Layout>
   )
 }

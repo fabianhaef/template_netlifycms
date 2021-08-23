@@ -7,17 +7,16 @@ import Fest from '../components/Fest'
 export default function Hero() {
   return (
   <div>
-    <section className="hero is-fullheight section-layout">
-      <img src="./static/images/Schwinger.png" className="hero-image" />
-        <div className="hero-text">
-          <p className="title">
-            Herzlich Willkommen!
-          </p>
-          <p className="subtitle">
-            Euer Schwingclub Zug und Umgebung
-          </p>
-        </div>
-      </section>
+    <section className="hero section-layout container">
+      <h1 className="title hero-title">Herzlich Willkommen beim Schwingklub Zug und Umgebung</h1>
+      <div className="hero-text">
+        <p className="hero-join">Lust bei uns aktiv mitzumachen?</p>
+        <Link href="/kontakt">
+          <button className="button button-bg">Kontaktieren Sie uns</button>
+        </Link>
+      </div>
+      <img src="./static/images/hero2.jpg" className="image"/>
+    </section>
       <Tiles />
       <Fest />
     </div>

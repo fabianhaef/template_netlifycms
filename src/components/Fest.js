@@ -14,7 +14,7 @@ function Fest() {
       </div>
       <div className="tile is-ancestor">
       <div className="tile is-6 is-vertical is-parent">
-        <div className="tile is-child box">
+        <div className="tile is-child box make-it-slow">
           <p className="title">
               <a href="https://abendschwingen-baar.ch/">
                 Abendschwingen
@@ -24,7 +24,7 @@ function Fest() {
         </div>
       </div>
       <div className="tile is-parent">
-        <div className="tile is-child box">
+        <div className="tile is-child box make-it-slow">
           <p className="title">
             <Link href="/feste">
               <a>

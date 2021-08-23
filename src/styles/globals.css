@@ -53,6 +53,13 @@ body {
   font-size: 1.4rem;
 }
 
+.navbar-item:hover {
+  background-color: var(--primary-10) !important;
+}
+.navbar-bg {
+  background-color: #fafafa;
+}
+
 .main-content {
   margin: 1rem 0;
   padding: 2rem 0 4rem;
@@ -86,12 +93,7 @@ body {
 }
 
 
-
-
-
-
 /* Layout */
-
 .section-layout {
   margin-bottom: 8rem;
 }
@@ -134,18 +136,6 @@ body {
 
 
 
-/** globals */
-.button-primary {
-  color: var(--black);
-  background-color: var(--primary-100);
-  border: 1px solid var(--primary-100);
-  width: 100%;
-  padding: 8px;
-}
-
-
-
-
 
 .button-secondary {
   color: var(--primary-100);
@@ -183,13 +173,13 @@ body {
 
 
 /* HERO SECTION */
-.hero-image {
+.hero-images {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
-
+/*
 .hero-text {
   position: absolute;
   top: 50%;
@@ -199,8 +189,39 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-
 }
+
+*/
+.hero-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 6rem;
+}
+
+.hero-join {
+  font-weight: bold;
+  margin-right: 2rem;
+}
+
+.hero-title {
+  margin-top: 2rem;
+}
+
+.button-bg {
+  font-weight: bold;
+  color: var(--background-color);
+  background: var(--primary-100);
+  border: 1px solid var(--primary-100);
+}
+
+.button-bg:hover {
+  color: var(--background-color);
+  background: var(--primary-90);
+  border: 1px solid var(--primary-90);
+}
+
 
 .title-bar {
   display: flex;
@@ -250,3 +271,45 @@ body {
 }
 
 
+.news-layout {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.news-article {
+  padding: 1rem 2rem;
+  min-width: 100%;
+  
+}
+
+
+/* The slow way */
+.make-it-slow {
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Transition to a bigger shadow on hover */
+.make-it-slow:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+
+/* The fast way */
+.make-it-fast {
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+/* Pre-render the bigger shadow, but hide it */
+.make-it-fast::after {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Transition to showing the bigger shadow on hover */
+.make-it-fast:hover::after {
+  opacity: 1;
+}
