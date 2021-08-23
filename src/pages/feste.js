@@ -32,7 +32,7 @@ export default function Feste() {
         <div className="block-layout">
           <h2 className="subtitle mb-4">Buebeschwingen Baar</h2>
           <p className="text-block-wide">
-            Die Initianten des Abendschwingens wurden aber auch im Nachwuchsbereich aktiv. Für das grosse Dorffest „Alle für das Alter", zugunsten des neuen Altersheims Bahnmatt im Jahre 971, organisierten sie ein Bubenschwingen. Der Erlös von 200 Franken war ein Mosaikstein im grossen Hilfsprojekt der Baarer Bevölkerung. Wie das Abendschwingen, ist auch das Bubenschwingen zur Tradition geworden, wo 10- bis 15-jährige Buben erste Wettkampf - Erfahrungen im Schwingsport  sammeln können. Bis 2011 (40jähriges Jubiläum) wurde das Fest auf dem Schmidhof ausgetragen. Aus Platzgründen hat sich der Verein dann entschieden, das Fest ab 2012 auf der Dorfmattwiese auszutragen. Das traditionelle Datum bleibt aber der Fronleichnamstag.
+            Die Initianten des Abendschwingens wurden aber auch im Nachwuchsbereich aktiv. Für das grosse Dorffest „Alle für das Alter", zugunsten des neuen Altersheims Bahnmatt im Jahre 1971, organisierten sie ein Bubenschwingen. Der Erlös von 200 Franken war ein Mosaikstein im grossen Hilfsprojekt der Baarer Bevölkerung. Wie das Abendschwingen, ist auch das Bubenschwingen zur Tradition geworden, wo 10- bis 15-jährige Buben erste Wettkampf - Erfahrungen im Schwingsport  sammeln können. Bis 2011 (40jähriges Jubiläum) wurde das Fest auf dem Schmidhof ausgetragen. Aus Platzgründen hat sich der Verein dann entschieden, das Fest ab 2012 auf der Dorfmattwiese auszutragen. Das traditionelle Datum bleibt aber der Fronleichnamstag.
         </p>
         </div>
       </section>

@@ -1,6 +1,5 @@
 import Layout from '../../components/Layout'
 import news from '../../../public/data/news.json'
-import Link from 'next/link'
 
 const defaultCoverImage = '/img/34961490322_bb9611120a_k.jpg'
 

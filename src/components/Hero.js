@@ -8,7 +8,7 @@ export default function Hero() {
   return (
   <div>
     <section className="hero section-layout container">
-      <h1 className="title hero-title">Herzlich Willkommen beim Schwingklub Zug und Umgebung</h1>
+      <h1 className="title hero">Herzlich Willkommen beim Schwingklub Zug und Umgebung</h1>
       <div className="hero-text">
         <p className="hero-join">Lust bei uns aktiv mitzumachen?</p>
         <Link href="/kontakt">
