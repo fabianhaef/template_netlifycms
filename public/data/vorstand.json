@@ -1,58 +1,58 @@
 [
   {
     "title": "Fritz Fasler",
-    "slug": "fritz-fasler",
     "rolle": "Aktuar/Passivkassier",
-    "coverImage": "/img/fritz_fasler.jpg",
-    "body": "",
-    "bodyHtml": "<p>Inwilerstrasse 27\n6340 Baar\nMobile: 079 649 39 82\nfritz.fasler@bluewin.ch\n</p>"
+    "adress": "Inwilerstrasse 27",
+    "place": "6340 Baar",
+    "phone": "079 649 39 82",
+    "coverImage": "/img/fritz_fasler.jpg"
   },
   {
     "title": "Ladina Rominger",
-    "slug": "ladina-rominger",
     "rolle": "Medien/Protokoll",
-    "coverImage": "/img/baumann_tanja.jpg",
-    "body": "",
-    "bodyHtml": "<p>Seminarstrasse 6\n6313 Menzingen\nMobile: 078 801 80 77\npatrick.haefliger@hotmail.com\n</p>"
+    "adress": "Seminarstrasse 6",
+    "place": "6313 Menzingen ",
+    "phone": "Mobile: 078 801 80 77",
+    "coverImage": "/img/baumann_tanja.jpg"
   },
   {
     "title": "Martin Hugener",
-    "slug": "martin-hugener",
     "rolle": "Materialverwalter",
-    "coverImage": "/img/hugener_martin.jpg",
-    "body": "",
-    "bodyHtml": "<p>Baarermattstrasse 13\n6340 Baar\nP: 041 761 29 69\n</p>"
+    "adress": "Baarermattstrasse 13",
+    "place": "6340 Baar",
+    "phone": " 041 761 29 69",
+    "coverImage": "/img/hugener_martin.jpg"
   },
   {
     "title": "Pascal Matter",
-    "slug": "pascal-matter",
     "rolle": "Präsident",
-    "coverImage": "/img/matter_pascal.jpg",
-    "body": "",
-    "bodyHtml": "<p>Seminarstrasse 6\n6313 Menzingen\nMobile: 078 801 80 77\npatrick.haefliger@hotmail.com\n</p>"
+    "adress": "Friedenstrasse 17",
+    "place": "6340 Baar",
+    "phone": "041 780 18 90",
+    "coverImage": "/img/matter_pascal.jpg"
   },
   {
     "title": "Patrick Häfliger",
-    "slug": "patrick-haefliger",
     "rolle": "Technischer Leiter Aktive",
-    "coverImage": "/img/patrick_haefliger.jpg",
-    "body": "6313 Menzingen, Mobile: 078 801 80 77, ",
-    "bodyHtml": "<p>6313 Menzingen, Mobile: 078 801 80 77, </p>\n"
+    "adress": "Seminarstrasse 6",
+    "place": "6313 Menzingen",
+    "phone": "078 801 08 77",
+    "coverImage": "/img/patrick_haefliger.jpg"
   },
   {
     "title": "Peter Merz",
-    "slug": "peter-merz",
     "rolle": "Technischer Leiter Jungschwinger",
-    "coverImage": "/img/peter_merz.jpg",
-    "body": "",
-    "bodyHtml": "<p>Windenboden 35\n6345 Neuheim\nMobile: 078 765 99 03\npeter.merz@schreinereimerz.ch\n</p>"
+    "adress": "Windenboden 35",
+    "place": "6345 Neuheim",
+    "phone": "078 765 99 03",
+    "coverImage": "/img/peter_merz.jpg"
   },
   {
     "title": "Philippe Zürcher",
-    "slug": "philippe-zuercher",
     "rolle": "Vize-Präsident/ Kassier",
-    "coverImage": "/img/zuercher_philippe.jpg",
-    "body": "",
-    "bodyHtml": "<p>Büessikon 8\n6340 Baar\nMobile: 079 464 60 46\nph.zuercher@outlook.com\n</p>"
+    "adress": "Büessikon 8",
+    "place": "6340 Baar",
+    "phone": "079 464 60 46",
+    "coverImage": "/img/zuercher_philippe.jpg"
   }
 ]
