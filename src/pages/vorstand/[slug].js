@@ -10,19 +10,3 @@ export default function VorstandPerson({ mitglied }) {
     </Layout>
   )
 }
-
-export async function getStaticProps(context) {
-  return {
-    props: {
-      mitglied: vorstand.find(md => md.slug === context.params.slug)
-    }
-  }
-}
-
-// generates all available blog post URLs
-export async function getStaticPaths() {
-  return {
-    paths: vorstand.map(md => ({ params: { slug: md.slug } })),
-    fallback: false
-  }
-}
