@@ -1,8 +1,8 @@
 {
   "title": "Pascal Matter",
-  "slug": "pascal-matter",
   "rolle": "Präsident",
-  "coverImage": "/img/matter_pascal.jpg",
-  "body": "",
-  "bodyHtml": "<p>Seminarstrasse 6\n6313 Menzingen\nMobile: 078 801 80 77\npatrick.haefliger@hotmail.com\n</p>"
+  "adress": "Friedenstrasse 17",
+  "place": "6340 Baar",
+  "phone": "041 780 18 90",
+  "coverImage": "/img/matter_pascal.jpg"
 }
