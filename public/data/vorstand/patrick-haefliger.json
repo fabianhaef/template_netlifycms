@@ -1,8 +1,8 @@
 {
   "title": "Patrick Häfliger",
-  "slug": "patrick-haefliger",
   "rolle": "Technischer Leiter Aktive",
-  "coverImage": "/img/patrick_haefliger.jpg",
-  "body": "6313 Menzingen, Mobile: 078 801 80 77, ",
-  "bodyHtml": "<p>6313 Menzingen, Mobile: 078 801 80 77, </p>\n"
+  "adress": "Seminarstrasse 6",
+  "place": "6313 Menzingen",
+  "phone": "078 801 08 77",
+  "coverImage": "/img/patrick_haefliger.jpg"
 }
