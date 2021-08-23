@@ -1,8 +1,8 @@
 {
   "title": "Philippe Zürcher",
-  "slug": "philippe-zuercher",
   "rolle": "Vize-Präsident/ Kassier",
-  "coverImage": "/img/zuercher_philippe.jpg",
-  "body": "",
-  "bodyHtml": "<p>Büessikon 8\n6340 Baar\nMobile: 079 464 60 46\nph.zuercher@outlook.com\n</p>"
+  "adress": "Büessikon 8",
+  "place": "6340 Baar",
+  "phone": "079 464 60 46",
+  "coverImage": "/img/zuercher_philippe.jpg"
 }
