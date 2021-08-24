@@ -29,12 +29,12 @@ export default function Navbar() {
                 News
               </a>
             </Link>
-            <Link href="/schwinger">
+            <Link href="/athlethen">
               <a className="navbar-item">
                 Athlethen
               </a>
             </Link>
-            <Link href="/about">
+            <Link href="/ueberuns">
               <a className="navbar-item">
                 Über uns
               </a>

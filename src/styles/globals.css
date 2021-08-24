@@ -34,6 +34,14 @@ body {
   background-color: #fafafa;
 }
 
+::-moz-selection { 
+  background: var(--primary-50);
+}
+
+::selection {
+  background: var(--primary-50);
+}
+
 
 
 /*NAVBAR stuff*/
@@ -132,9 +140,6 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-
-
-
 
 
 .button-secondary {
