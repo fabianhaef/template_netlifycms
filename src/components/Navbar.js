@@ -34,6 +34,11 @@ export default function Navbar() {
                 Athlethen
               </a>
             </Link>
+            <Link href="/agenda">
+              <a className="navbar-item">
+                Agenda
+              </a>
+            </Link>
             <Link href="/ueberuns">
               <a className="navbar-item">
                 Über uns
