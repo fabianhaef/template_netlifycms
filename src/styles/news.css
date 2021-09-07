@@ -1,0 +1,23 @@
+
+.news-layout {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.news-article {
+  padding: 1rem 2rem;
+  min-width: 100%;
+}
+
+.news-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: top;
+}
+
+.news-image {
+  width: 100%;
+}

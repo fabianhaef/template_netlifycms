@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Navbar() {
   return (
-    <footer className="footer grid-3-columns container">
+    <footer className="footer-bg grid-3-columns container">
       <div className="one">
         &copy; {(new Date()).getFullYear()}
         <Link href="/impressum">

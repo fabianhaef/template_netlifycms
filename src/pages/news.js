@@ -3,6 +3,8 @@ import Link from 'next/link'
 import Layout from '../components/Layout'
 import news from '../../public/data/news.json'
 
+const defaultCoverImage = '/img/34961490322_bb9611120a_k.jpg'
+
 
 export default function News({ news = [] }) {
 
@@ -14,9 +16,12 @@ export default function News({ news = [] }) {
         <div className="news-layout">
             {news.map(post => (
                 <div className="news-article make-it-slow bg-primary-10 box" key={post.title}>
-                      <h2 className="title is-4 mr-4">{post.title}</h2>
-                      <div dangerouslySetInnerHTML={{ __html: post.bodyHtml }} />
-                      <img className="image" src={post.coverImage} alt={post.title} ></img>
+                      <div className="news-title">
+                        <h2 className="title is-4 mr-4">{post.title}</h2>
+                        <p>{post.datum}</p>
+                      </div>
+                    <div dangerouslySetInnerHTML={{ __html: post.bodyHtml }} />
+                    <img className="image news-image" src={post.coverImage || defaultCoverImage} alt={post.title}></img>
                 </div>
             ))}
         </div>

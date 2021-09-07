@@ -1,19 +1,17 @@
 import Layout from '../../components/Layout'
 import news from '../../../public/data/news.json'
 
-const defaultCoverImage = '/img/34961490322_bb9611120a_k.jpg'
-
 export default function NewsPost({ post }) {
   return (
-    <Layout title={`${post.title} | Blog`} className="container">
-      <div className="cover-image" style={{ backgroundImage: `url(${post.coverImage || defaultCoverImage})` }}>
-        <div className="title-block">
-          <h1 className="title">{post.title}</h1>
-          <em className="subtitle is-6 is-block">{post.dateFormatted}</em>
+    <Layout title={`${post.title}`} >
+      <div className="container">
+        <div className="news-title">
+          <h2 className="title is-4 mr-4">{post.title}</h2>
+          <p>{post.datum}</p>
         </div>
+        <div className="content" dangerouslySetInnerHTML={{ __html: post.bodyHtml }} />
+        <img src={post.img} />
       </div>
-
-      <div className="content section" dangerouslySetInnerHTML={{ __html: post.bodyHtml }} />
     </Layout>
   )
 }

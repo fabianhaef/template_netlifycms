@@ -9,12 +9,15 @@ export default function Agenda() {
         <h1 className="title mb-6">Agenda</h1>
         <div className="title-bar mb-4">
           <h2 className="subtitle" id="title-bar-no-margin">Schwingfeste</h2>
-          <h3 className="subtitle title-bar-info">Vom Schwingclub Zug organisiert</h3>
         </div>
         
 
         <div className="card">
-          <h3 className="card-header-title">Buebeschwinget Baar</h3>
+          <div className="title-bar mb-4">
+            <h3 className="card-header-title">Buebeschwinget Baar</h3>
+            <h3 className="title-bar-info">Vom Schwingclub Zug organisiert</h3>
+          </div>
+
           <div className="card-content">
             <p>Datum: 3. Juni 2021, Dorfmattwiese, Baar</p >
             <p>OK-Präsident: Merz Christian, Feldbergstrasse 2b, 6319 Allenwinden, 079 452 29 78</p>
@@ -24,7 +27,10 @@ export default function Agenda() {
         <hr />
 
         <div className="card">
-          <h3 className="card-header-title">47. Abendschwinget Baar</h3>
+          <div className="title-bar mb-4">
+            <h3 className="card-header-title">47. Abendschwinget Baar</h3>
+            <h3 className="title-bar-info">Vom Schwingclub Zug organisiert</h3>
+          </div>
           <div className="card-content">
             <p>Datum: 25. Juni 2021, Dorfmattwiese, Baar</p >
             <p>OK-Präsident: Daniel Toggenburger, Birkenmatt 15, 6343 Rotkreuz, 041 790 64 40</p>

@@ -1,14 +1,23 @@
 @import 'https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css';
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;900&display=swap');
+
+
 @import '../styles/vorstand.css';
 @import '../styles/tiles.css';
+@import '../styles/news.css';
+@import '../styles/effects.css';
+@import '../styles/hero.css';
+@import '../styles/layout.css';
+@import '../styles/footer.css';
+@import '../styles/navbar.css';
+
 
 
 :root {
   --black: #222222;
   --blue: #00A8DF;
   --background-color: #E8E8E8;
-
 
   --primary-100: rgba(0, 167, 222, 1);
   --primary-90: rgba(0, 167, 222, 0.9);
@@ -17,13 +26,14 @@
   --primary-30: rgba(0, 167, 222, 0.3);
   --primary-10: rgba(0, 168, 223, 0.1);
 
-
   --secondary-100: rgba(246, 224, 186, 1);
   --secondary-90: rgba(246, 224, 186, 0.9);
   --secondary-70: rgba(246, 224, 186, 0.7);
   --secondary-50: rgba(246, 224, 186, 0.5);
   --secondary-30: rgba(246, 224, 186, 0.3);
   --secondary-10: rgba(246, 224, 186, 0.1);
+
+  --speed: 500ms;
 }
 
 *, body {
@@ -35,6 +45,8 @@ body {
   background: url('../../public/static/images/EdelweissHintergrund.png');
 }
 
+
+
 ::-moz-selection { 
   background: var(--primary-50);
 }
@@ -44,43 +56,6 @@ body {
 }
 
 
-
-/*NAVBAR stuff*/
-
-.main-navbar {
-  margin-top: 1rem;
-}
-
-.navbar-logo {
-  border-radius: 100%;
-  width: 4rem;
-  height: 4rem;
-  max-height: 4rem !important;
-}
-
-.navbar-item {
-  font-size: 1.4rem;
-}
-
-.navbar-item:hover {
-  background-color: var(--primary-10) !important;
-}
-.navbar-bg {
-  background-color: #fafafa;
-}
-
-.main-content {
-  margin: 1rem 0;
-  padding: 2rem 0 4rem;
-  border-top: solid 1px lightgrey;
-  border-bottom: solid 1px lightgrey;
-}
-
-.grid-two-column {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-}
 
 .cover-image {
   background-size: cover;
@@ -99,47 +74,6 @@ body {
 
 .title-block .title, .title-block .subtitle {
   color: white;
-}
-
-
-/* Layout */
-.section-layout {
-  margin-bottom: 8rem;
-}
-
-.block-layout {
-  margin-bottom: 3rem;
-}
-
-.grid-3-columns {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-}
-.one {
-  display: flex;
-  flex-direction: column;
-}
-
-.two {
-  display: flex;
-  flex-direction: column;
-}
-
-.three {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.text-block-wide {
-  line-height: 33px;
-}
-
-.flex-wrap {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 
@@ -162,58 +96,17 @@ body {
 
 
 
-/* AGENDA */
-
 .card-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
 .card {
   padding: 1.75rem 0.5rem;
 }
 
 
-/* ABOUT */
-
-
-
-/* HERO SECTION */
-.hero-images {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-/*
-.hero-text {
-  position: absolute;
-  top: 50%;
-  left: 67%;
-  transform: translate(-50%, -50%);
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-*/
-.hero-text {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  margin-bottom: 6rem;
-}
-
-.hero-join {
-  font-weight: bold;
-  margin-right: 2rem;
-}
-
-.hero-title {
-  margin-top: 2rem;
-}
 
 .button-bg {
   font-weight: bold;
@@ -254,6 +147,8 @@ body {
   margin: 0;
 }
 
+
+
 .hero-buttons {
   display: flex;
   flex-direction: column;
@@ -267,55 +162,4 @@ body {
 
 .bg-gray-100 {
   background-color: var(--gray);
-}
-
-
-
-/*  Footer */
-.made-by-fh {
-  font-size: 0.75rem;
-}
-
-
-.news-layout {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.news-article {
-  padding: 1rem 2rem;
-  min-width: 100%;
-  
-}
-
-
-/* The slow way */
-.make-it-slow {
-  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
-  transition: box-shadow 0.3s ease-in-out;
-}
-
-/* Transition to a bigger shadow on hover */
-.make-it-slow:hover {
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-}
-
-
-/* The fast way */
-.make-it-fast {
-  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
-}
-
-/* Pre-render the bigger shadow, but hide it */
-.make-it-fast::after {
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-}
-
-/* Transition to showing the bigger shadow on hover */
-.make-it-fast:hover::after {
-  opacity: 1;
 }
