@@ -39,4 +39,12 @@
   .hero-mobile {
     margin: 0 3rem !important;
   }
+
+  .navbar {
+    padding: 0 !important;
+  }
+
+  .section-layout {
+    margin-bottom: 3rem !important;
+  }
 }

@@ -10,10 +10,11 @@ export default function News({ news = [] }) {
 
   return (
     <Layout title="News">
-      <div className="container">
-        <h1 className="title mb-6">News</h1>
-        <h2 className="subtitle mb-4">Hier finden Sie alle relevanten News zum Schwingclub Zug und Umgebung.</h2>
-        <div className="news-layout">
+      <section className="section">
+        <div className="container">
+          <h1 className="title mb-6">News</h1>
+          <h2 className="subtitle mb-4">Hier finden Sie alle relevanten News zum Schwingclub Zug und Umgebung.</h2>
+          <div className="news-layout">
             {news.map(post => (
                 <div className="news-article make-it-slow bg-primary-10 box" key={post.title}>
                       <div className="news-title">
@@ -24,8 +25,9 @@ export default function News({ news = [] }) {
                     <img className="image news-image" src={post.coverImage || defaultCoverImage} alt={post.title}></img>
                 </div>
             ))}
+          </div>
         </div>
-      </div>
+      </section>
     </Layout>
   )
 }
