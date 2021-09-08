@@ -51,7 +51,7 @@ export default function About({ vorstand }) {
       <section title="Vorstand" className="section">
         <div className="container">
           <h2 className="subtitle mb-4">Vorstand</h2>        
-          <div className="grid-3-columns mb-6">
+          <div className="vorstand-column mb-6">
             {vorstand.map(mitglied => (
               <VorstandsMitglied mitglied={mitglied}/>
             ))}
