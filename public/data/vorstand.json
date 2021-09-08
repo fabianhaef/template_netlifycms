@@ -5,15 +5,15 @@
     "adress": "Inwilerstrasse 27",
     "place": "6340 Baar",
     "phone": "079 649 39 82",
-    "coverImage": "/img/fritz_fasler.jpg"
+    "coverImage": "/img/frame-19.png"
   },
   {
     "title": "Ladina Rominger",
     "rolle": "Medien/Protokoll",
     "adress": "Seminarstrasse 6",
     "place": "6313 Menzingen ",
-    "phone": "Mobile: 078 801 80 77",
-    "coverImage": "/img/baumann_tanja.jpg"
+    "phone": "078 801 80 77",
+    "coverImage": "/img/ladina.png"
   },
   {
     "title": "Martin Hugener",
@@ -21,7 +21,7 @@
     "adress": "Baarermattstrasse 13",
     "place": "6340 Baar",
     "phone": " 041 761 29 69",
-    "coverImage": "/img/hugener_martin.jpg"
+    "coverImage": "/img/frame-23.png"
   },
   {
     "title": "Pascal Matter",
@@ -29,7 +29,7 @@
     "adress": "Friedenstrasse 17",
     "place": "6340 Baar",
     "phone": "041 780 18 90",
-    "coverImage": "/img/matter_pascal.jpg"
+    "coverImage": "/img/frame-20.png"
   },
   {
     "title": "Patrick Häfliger",
@@ -37,7 +37,7 @@
     "adress": "Seminarstrasse 6",
     "place": "6313 Menzingen",
     "phone": "078 801 08 77",
-    "coverImage": "/img/patrick_haefliger.jpg"
+    "coverImage": "/img/frame-21.png"
   },
   {
     "title": "Peter Merz",
@@ -45,7 +45,7 @@
     "adress": "Windenboden 35",
     "place": "6345 Neuheim",
     "phone": "078 765 99 03",
-    "coverImage": "/img/peter_merz.jpg"
+    "coverImage": "/img/frame-22.png"
   },
   {
     "title": "Philippe Zürcher",

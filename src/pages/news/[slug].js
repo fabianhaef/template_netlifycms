@@ -4,14 +4,16 @@ import news from '../../../public/data/news.json'
 export default function NewsPost({ post }) {
   return (
     <Layout title={`${post.title}`} >
-      <div className="container">
-        <div className="news-title">
-          <h2 className="title is-4 mr-4">{post.title}</h2>
-          <p>{post.datum}</p>
+      <section className="section">
+        <div className="container">
+          <div className="news-title">
+            <h2 className="title is-4 mr-4">{post.title}</h2>
+            <p>{post.datum}</p>
+          </div>
+          <div className="content" dangerouslySetInnerHTML={{ __html: post.bodyHtml }} />
+          <img src={post.img} />
         </div>
-        <div className="content" dangerouslySetInnerHTML={{ __html: post.bodyHtml }} />
-        <img src={post.img} />
-      </div>
+      </section>
     </Layout>
   )
 }

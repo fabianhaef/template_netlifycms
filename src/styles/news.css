@@ -21,3 +21,17 @@
 .news-image {
   width: 100%;
 }
+
+@media only screen and (max-width: 768px) {
+  .news-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+
+  .news-title > h2 {
+    margin: 0 !important;
+  }
+}

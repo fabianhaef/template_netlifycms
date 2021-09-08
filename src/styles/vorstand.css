@@ -3,3 +3,12 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+@media only screen and (max-width: 768px) {
+  .legende {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+  }
+}
