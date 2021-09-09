@@ -11,7 +11,6 @@ export default function Layout({ title = 'Schwingclub Zug und Umgebung', childre
         <title>{title}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="icon" href="/favicon.ico" />
-        <script src="./static/js/myScript.js"></script>
       </Head>
       <Navbar>
         <NavItem href={"/news"} name={"News"}/>

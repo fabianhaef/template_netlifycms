@@ -6,17 +6,20 @@ export default function NewsPost({ post }) {
     <Layout title={`${post.title}`} >
       <section className="section">
         <div className="container">
-          <div className="news-title">
-            <h2 className="subtitle is-4 mb-4 mr-4">{post.title}</h2>
-            <p>{post.datum}</p>
+          <div className="box">
+            <div className="news-title">
+              <h2 className="subtitle is-4 mb-4 mr-4">{post.title}</h2>
+              <p>{post.datum}</p>
+            </div>
+            <div className="content" dangerouslySetInnerHTML={{ __html: post.bodyHtml }} />
+            <img src={post.img} />
           </div>
-          <div className="content" dangerouslySetInnerHTML={{ __html: post.bodyHtml }} />
-          <img src={post.img} />
         </div>
       </section>
     </Layout>
   )
 }
+
 
 export async function getStaticProps(context) {
   return {
