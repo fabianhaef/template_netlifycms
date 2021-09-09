@@ -7,7 +7,7 @@ export default function NewsPost({ post }) {
       <section className="section">
         <div className="container">
           <div className="news-title">
-            <h2 className="title is-4 mr-4">{post.title}</h2>
+            <h2 className="subtitle is-4 mb-4 mr-4">{post.title}</h2>
             <p>{post.datum}</p>
           </div>
           <div className="content" dangerouslySetInnerHTML={{ __html: post.bodyHtml }} />

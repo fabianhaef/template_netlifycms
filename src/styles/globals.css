@@ -4,7 +4,6 @@
 
 
 @import '../styles/vorstand.css';
-@import '../styles/tiles.css';
 @import '../styles/news.css';
 @import '../styles/effects.css';
 @import '../styles/hero.css';
@@ -140,7 +139,8 @@ body {
   padding: 8px;
   border-radius: 4px;
   background-color: var(--secondary-100);
-  color: var(--black)
+  color: var(--black);
+  font-size: 0.75rem;
 }
 
 #title-bar-no-margin {
@@ -176,6 +176,14 @@ body {
 
   .title-bar > h1 {
     margin-bottom: 0.5rem !important;
+  }
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .main-content {
+    margin: 1rem 12px;
+    padding: 2rem 0 4rem;
   }
 }
 

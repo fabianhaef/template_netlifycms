@@ -13,7 +13,7 @@ export default function News({ news = [] }) {
       <section className="section">
         <div className="container">
           <h1 className="title mb-6">News</h1>
-          <h2 className="subtitle mb-4">Hier finden Sie alle relevanten News zum Schwingclub Zug und Umgebung.</h2>
+          <h2 className="subtitle is-4 mb-4">Hier finden Sie alle relevanten News zum Schwingclub Zug und Umgebung.</h2>
           <div className="news-layout">
             {news.map(post => (
                 <Link href="/news/[slug]" as={`/news/${post.slug}`}>

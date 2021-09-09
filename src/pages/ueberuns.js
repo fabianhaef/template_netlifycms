@@ -12,8 +12,8 @@ export default function About({ vorstand }) {
       <section className="section section-layout">
         <div className="container">
           <h1 className="title mb-6">Über uns</h1>
-          <h2 className="subtitle mb-4">Entstehungsgeschichte</h2>
-          <p>
+          <h2 className="subtitle is-4 mb-4">Entstehungsgeschichte</h2>
+          <p className="content">
           Schwingclub Zug und Umgebung - ein Baarer Verein? <strong>Ja schon.</strong>
           <br></br>
           Die Organisation zeichnet für die Durchführung des Abendschwingens und des Bubenschwingens verantwortlich und ihre Mitgliederliste 
@@ -50,7 +50,7 @@ export default function About({ vorstand }) {
       </section>
       <section title="Vorstand" className="section">
         <div className="container">
-          <h2 className="subtitle mb-4">Vorstand</h2>        
+          <h2 className="subtitle is-4 mb-4">Vorstand</h2>        
           <div className="vorstand-column mb-6">
             {vorstand.map(mitglied => (
               <VorstandsMitglied mitglied={mitglied}/>
