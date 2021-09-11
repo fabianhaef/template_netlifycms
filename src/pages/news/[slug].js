@@ -2,6 +2,7 @@ import Layout from '../../components/Layout'
 import news from '../../../public/data/news.json'
 
 export default function NewsPost({ post }) {
+  console.log(post)
   return (
     <Layout title={`${post.title}`} >
       <section className="section">
@@ -11,8 +12,10 @@ export default function NewsPost({ post }) {
               <h2 className="subtitle is-4 mb-4 mr-4">{post.title}</h2>
               <p>{post.datum}</p>
             </div>
-            <div className="content" dangerouslySetInnerHTML={{ __html: post.bodyHtml }} />
-            <img src={post.img} />
+            <div className="news-content">
+              <div className="content" dangerouslySetInnerHTML={{ __html: post.bodyHtml }} />
+              <img src={post.coverImage} />
+            </div>
           </div>
         </div>
       </section>

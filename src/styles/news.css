@@ -22,6 +22,17 @@
   width: 100%;
 }
 
+.news-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.news-content > img {
+  max-width: 512px;
+}
+
 @media only screen and (max-width: 768px) {
   .news-title {
     display: flex;
