@@ -19,7 +19,10 @@ export default function Bilder({ bilder = [] }) {
             loader={<h4>Loading...</h4>}
           >
           {bilder.map((bild, index) => (
-              <img className="image" src={bild.coverImage} alt={bild.title}></img>
+              <div key={bild.title}>
+                <img className="image" src={bild.coverImage} alt={bild.title}></img>
+                <h2 className="subtitle is-4 mb-4">{bild.title}</h2>
+              </div>
           ))}
           </InfiniteScroll>
         </div>
