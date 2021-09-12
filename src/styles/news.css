@@ -34,6 +34,11 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .news-content {
+    display: flex;
+    flex-direction: row;
+  }
+
   .news-title {
     display: flex;
     flex-direction: column;
