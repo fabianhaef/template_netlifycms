@@ -16,12 +16,11 @@ export default function Bilder({ bilder = [] }) {
             dataLength={bilder.length} //This is important field to render the next data
             //next={fetchData}
             hasMore={true}
-            loader={<h4>Loading...</h4>}
           >
           {bilder.map((bild, index) => (
-              <div key={bild.title}>
+              <div key={bild.title} className="mb-4">
                 <img className="image" src={bild.coverImage} alt={bild.title}></img>
-                <h2 className="subtitle is-4 mb-4">{bild.title}</h2>
+                <h2 className="subtitle is-5">{bild.title}</h2>
               </div>
           ))}
           </InfiniteScroll>
