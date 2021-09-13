@@ -2,7 +2,7 @@ import Layout from '../../components/Layout'
 import news from '../../../public/data/news.json'
 
 export default function NewsPost({ post }) {
-  console.log(post)
+  
   return (
     <Layout title={`${post.title}`} >
       <section className="section">

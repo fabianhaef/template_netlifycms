@@ -1,5 +1,8 @@
 import Link from 'next/link'
 
+const defaultCoverImage = '/img/34961490322_bb9611120a_k.jpg'
+const defaultPath = './static/logo.jpg'
+
 export default function Navbar(props) {
   return (
     <nav className="navbar">
@@ -7,7 +10,7 @@ export default function Navbar(props) {
         <div className="navbar-brand">
           <Link href="/">
             <a className="navbar-item">
-              <img src="./static/logo.jpg" width="32" height="32" />
+              <img src={defaultPath || defaultCoverImage} width="32" height="32" />
             </a>
           </Link>
         </div>
