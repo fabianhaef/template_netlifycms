@@ -50,4 +50,9 @@
   .news-title > h2 {
     margin: 0 !important;
   }
+
+  .news-content-image {
+    max-width: 450px;
+    max-height: 450px;
+  }
 }

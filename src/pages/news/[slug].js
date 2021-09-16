@@ -10,11 +10,11 @@ export default function NewsPost({ post }) {
           <div className="box">
             <div className="news-title">
               <h2 className="subtitle is-4 mb-4 mr-4">{post.title}</h2>
-              <p>{post.datum}</p>
+              <p>{post.dateFormatted}</p>
             </div>
             <div className="news-content">
               <div className="content" dangerouslySetInnerHTML={{ __html: post.bodyHtml }} />
-              <img src={post.coverImage} />
+              <img src={post.coverImage} className="news-content-image"/>
             </div>
           </div>
         </div>

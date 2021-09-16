@@ -29,9 +29,23 @@
   background-color: var(--primary-10) !important;
 }
 
+.navbar-logo {
+  width: 48px !important;
+  height: 48px !important;
+  max-height: 48px !important;
+  max-width: 48px !important;
+}
+
 @media only screen and (max-width: 496px) {
   .navbar-brand {
     display: none;
+  }
+
+  .navbar-logo {
+    width: 36px !important;
+    height: 36px !important;
+    max-height: 36px !important;
+    max-width: 36px !important;
   }
   
   .navbar {

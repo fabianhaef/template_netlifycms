@@ -12,7 +12,7 @@ export default function Agenda() {
           <div className="box">
             <h3 className="subtitle is-5">Buebeschwinget Baar</h3>
             <div>
-              <p>Datum: 3. Juni 2021, Dorfmattwiese, Baar</p >
+              <p>3. Juni 2021, Dorfmattwiese, Baar</p >
               <p>OK-Präsident: Merz Christian, Feldbergstrasse 2b, 6319 Allenwinden, 079 452 29 78</p>
             </div>
           </div>
@@ -23,7 +23,7 @@ export default function Agenda() {
             <h3 className="subtitle is-5">47. Abendschwinget Baar</h3>
   
             <div >
-              <p>Datum: 25. Juni 2021, Dorfmattwiese, Baar</p >
+              <p>25. Juni 2021, Dorfmattwiese, Baar</p >
               <p>OK-Präsident: Daniel Toggenburger, Birkenmatt 15, 6343 Rotkreuz, 041 790 64 40</p>
               <Link href="https://abendschwingen-baar.ch/"><a>Abendschwinget Baar</a></Link>
             </div>

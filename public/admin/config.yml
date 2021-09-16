@@ -14,7 +14,6 @@ collections:
     format: "json"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Datum", name: "datum", widget: "string" }
       - {
           label: "Publish Date",
           name: "date",

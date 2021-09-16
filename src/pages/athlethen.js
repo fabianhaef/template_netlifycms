@@ -6,17 +6,17 @@ export default function Schwinger() {
       <section className="section">
         <div className="container">
           <h1 className="title">Unsere Athlethen</h1>
-          <nav class="level is-mobile">
-            <div class="level-item has-text-centered">
+          <nav className="level is-mobile">
+            <div className="level-item has-text-centered">
               <div>
-                <p class="heading">Aktivschwinger</p>
-                <p class="title">+20</p>
+                <p className="heading">Aktivschwinger</p>
+                <p className="title">+20</p>
               </div>
             </div>
-            <div class="level-item has-text-centered">
+            <div className="level-item has-text-centered">
               <div>
-                <p class="heading">Jungschwinger</p>
-                <p class="title">+25</p>
+                <p className="heading">Jungschwinger</p>
+                <p className="title">+25</p>
               </div>
             </div>
           </nav>

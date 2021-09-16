@@ -5,11 +5,13 @@ import news from '../../public/data/news.json'
 
 
 export default function Tiles() {
-  const firstArticle = news[0]
-  const secondArticle = news[1]
-  const thirdArticle = news[2]
-  const fourthArticle = news[3]
-  const fifthArticle = news[4]
+  const filteredNews = news.sort((a, b) => b.date - b.date)
+
+  const firstArticle = filteredNews[0]
+  const secondArticle = filteredNews[1]
+  const thirdArticle = filteredNews[2]
+  const fourthArticle = filteredNews[3]
+  const fifthArticle = filteredNews[4]
 
   return (
     <section className="section section-layout">
@@ -30,7 +32,7 @@ export default function Tiles() {
             <Link href="/news/[slug]" as={`/news/${firstArticle.slug}`}>
               <article className="tile is-child bg-primary-10 box make-it-slow">
                 <p className="title is-5">{firstArticle.title}</p>
-                <p className="subtitle is-6">{firstArticle.datum}</p>
+                <p className="subtitle is-6">{firstArticle.dateFormatted}</p>
                 <div className="content">
                   {firstArticle.body.substring(0, 200)}...
                 </div>              
@@ -39,7 +41,7 @@ export default function Tiles() {
             <Link href="/news/[slug]" as={`/news/${secondArticle.slug}`}>
               <article className="tile is-child bg-primary-10 box make-it-slow">
                 <p className="title is-5">{secondArticle.title}</p>
-                <p className="subtitle is-6">{secondArticle.datum}</p>
+                <p className="subtitle is-6">{secondArticle.dateFormatted}</p>
                 <div className="content">
                   {secondArticle.body.substring(0, 200)}...
                 </div>
@@ -51,7 +53,7 @@ export default function Tiles() {
 
               <article className="tile is-child bg-primary-10 box make-it-slow">
                 <p className="title is-5">{thirdArticle.title}</p>
-                <p className="subtitle is-6">{thirdArticle.datum}</p>
+                <p className="subtitle is-6">{thirdArticle.dateFormatted}</p>
                 <div className="content">
                   {thirdArticle.body.substring(0, 200)}...
                 </div>
@@ -66,7 +68,7 @@ export default function Tiles() {
             <Link href="/news/[slug]" as={`/news/${fourthArticle.slug}`}>
               <article className="tile is-child  bg-primary-10 box make-it-slow">
                 <p className="title is-5">{fourthArticle.title}</p>
-                <p className="subtitle is-6">{fourthArticle.datum}</p>
+                <p className="subtitle is-6">{fourthArticle.dateFormatted}</p>
                 <div className="content">
                   {fourthArticle.body.substring(0, 200)}...
                 </div>
@@ -79,7 +81,7 @@ export default function Tiles() {
               <article className="tile is-child  bg-primary-10 box make-it-slow">
                 <div className="content">
                   <p className="title is-5">{fifthArticle.title}</p>
-                  <p className="subtitle is-6">{fifthArticle.datum}</p>
+                  <p className="subtitle is-6">{fifthArticle.dateFormatted}</p>
                   <div className="content">
                     {fifthArticle.body.substring(0, 2000)}...
                   </div>          </div>

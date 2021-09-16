@@ -22,8 +22,9 @@ export default function Impressum() {
             <h2 className="subtitle is-4 mb-4">Haftungsausschluss für Links</h2>
             <p className="content mb-5">Verweise und Links auf Webseiten Dritter liegen ausserhalb unseres Verantwortungsbereichs. Es wird jegliche Verantwortung f&uuml;r solche Webseiten abgelehnt. Der Zugriff und die Nutzung solcher Webseiten erfolgen auf eigene Gefahr des jeweiligen Nutzers.</p>
 
-            <h2 className="ssubtitle is-4 mb-4">Urheberrechte</h2>
+            <h2 className="subtitle is-4 mb-4">Urheberrechte</h2>
             <p className="content mb-5">Die Urheber- und alle anderen Rechte an Inhalten, Bildern, Fotos oder anderen Dateien auf dieser Website, geh&ouml;ren ausschliesslich <strong>der juristischen Person Schwingclub Zug und Umgebung</strong> oder den speziell genannten Rechteinhabern. F&uuml;r die Reproduktion jeglicher Elemente ist die schriftliche Zustimmung des Urheberrechtstr&auml;gers im Voraus einzuholen.</p>
+            <p className="content mb-5">Das auf der Startseite verwendete Bild "Aus 15 Fotos wird eines" gehört urheberrechtlich an Urs Gehrig, <a href="https://ursgehrig.com/">https://ursgehrig.com/</a>, und ist unter der Creative Commons Lizenz 4.0 International (CC BY-NC-SA 4.0) lizenziert.</p>
             Quelle: <a href="https://www.swissanwalt.ch" target="_blank" rel="noopener">SwissAnwalt</a>
           </div>
         </div>
