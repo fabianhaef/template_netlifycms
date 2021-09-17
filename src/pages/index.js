@@ -14,7 +14,7 @@ export default function Home() {
           <div className="hero-text">
             <h2 className="subtitle is-4">Lust bei uns aktiv mitzumachen?</h2>
             <Link href="/kontakt">
-              <button className="button button-bg">Kontaktieren Sie uns</button>
+              <button className="button button-bg">Kontaktiere uns</button>
             </Link>
           </div>      
           <img src="./static/images/hero2.jpg" className="image"/>
