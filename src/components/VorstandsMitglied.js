@@ -1,7 +1,6 @@
 import React from 'react'
 
 function VorstandsMitglied({mitglied}) {
-
   return (
     <div key={mitglied.title} className="box bg-primary-10 make-it-slow">
       <article className="vorstand">

@@ -4,7 +4,6 @@ import Layout from '../components/Layout'
 import news from '../../public/data/news.json'
 
 const defaultCoverImage = '/images/hero2.jpg' 
-console.log(defaultCoverImage)
 
 export default function News({ news = [] }) {
 

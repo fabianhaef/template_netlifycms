@@ -4,9 +4,6 @@ import vorstand from '../../public/data/vorstand.json'
 
 
 export default function About({ vorstand }) {
-  
-
-
   return (
     <Layout title="Über uns">
       <section className="section section-layout">

@@ -1,5 +1,7 @@
 import Link from 'next/link'
 
+import NavItem from './NavItem'
+
 export default function Navbar() {
   return (
     <footer className="footer-bg grid-3-columns container">
