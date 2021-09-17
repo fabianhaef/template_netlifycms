@@ -2,7 +2,7 @@ import Layout from '../components/Layout'
 
 export default function Kontakt() {
   return (
-    <Layout>
+    <Layout title="Kontakt">
       <section className="section">
         <div className="container">
           <div className="block">

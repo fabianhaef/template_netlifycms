@@ -2,7 +2,7 @@ import Layout from '../components/Layout'
 
 export default function Impressum() {
   return (
-    <Layout>
+    <Layout title="Impressum">
       <section className="section">
         <div className="container">
           <div className="block">

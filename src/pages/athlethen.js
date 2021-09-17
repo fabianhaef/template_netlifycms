@@ -2,7 +2,7 @@ import Layout from '../components/Layout'
 
 export default function Schwinger() {
   return (
-    <Layout title="athlethen">
+    <Layout title="Athlethen">
       <section className="section">
         <div className="container">
           <h1 className="title">Unsere Athlethen</h1>

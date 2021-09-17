@@ -8,7 +8,7 @@ export default function About({ vorstand }) {
 
 
   return (
-    <Layout>
+    <Layout title="Über uns">
       <section className="section section-layout">
         <div className="container">
           <h1 className="title mb-6">Über uns</h1>

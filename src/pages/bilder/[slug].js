@@ -6,7 +6,7 @@ const defaultCoverImage = '/img/34961490322_bb9611120a_k.jpg'
 
 export default function BilderPost({ bild }) {
   return (
-    <Layout title={`${bilder.title} | Blog`}>
+    <Layout title={`${bilder.title}`}>
       <div className="cover-image" style={{ backgroundImage: `url(${bilder.coverImage || defaultCoverImage})` }}>
         <div className="title-block">
           <em className="subtitle is-6 is-block">{bilder.dateFormatted}</em>

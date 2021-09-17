@@ -3,12 +3,12 @@ import Link from 'next/link'
 import Layout from '../components/Layout'
 import news from '../../public/data/news.json'
 
-const defaultCoverImage = '/img/34961490322_bb9611120a_k.jpg'
-
+const defaultCoverImage = '/images/hero2.jpg' 
+console.log(defaultCoverImage)
 
 export default function News({ news = [] }) {
 
-  const filteredNews = news.sort((a, b) => b.date - b.date)
+  const filteredNews = news.sort((a, b) => a.date - b.date)
 
   return (
     <Layout title="News">

@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Feste() {
   return (
-    <Layout>
+    <Layout title="Feste">
       <section className="section">
         <div className="container">
 
