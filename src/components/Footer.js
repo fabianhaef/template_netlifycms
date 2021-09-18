@@ -30,9 +30,11 @@ export default function Navbar() {
       </div>
 
       <div className="three">
-        <a>
-          <img src="../static/logo.jpg" width="128" height="128" />
-        </a>
+          <Link href="/">
+            <a>
+              <img src="../static/logo.jpg" className="navbar-logo" />
+            </a>
+          </Link>
         <Link href="https://github.com/fabianhaef">
           <a className="made-by-fh">made by fh</a>
         </Link>
