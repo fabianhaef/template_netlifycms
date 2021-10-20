@@ -15,7 +15,7 @@ export default function About({ vorstand }) {
           <br></br>
           Die Organisation zeichnet für die Durchführung des Abendschwingens und des Bubenschwingens verantwortlich und ihre Mitgliederliste 
           trägt viele Namen bekannter Schwingergrössen aus Baar.<br />
-          Der Schwingclub Zug und Umgebung ist im Jahr 1973 aus dem Schwingclub Zug, hervorgegangen. Die Generalversammlung hat sich damals für die Namensänderung ausgesprochen. An dieser GV legte der Baarer Dominik Weber die präsidialen Aufgaben nieder. Zum Nachfolger ernannt wurde Karl Bürgler.
+          Gegründet wurde der Schwingclub Zug im Jahre 1933. Im Jahr 1973 ist der Schwingclub Zug und Umgebung aus dem Schwingclub Zug hervorgegangen. Die Generalversammlung hat sich damals für die Namensänderung ausgesprochen. An dieser GV legte der Baarer Dominik Weber die präsidialen Aufgaben nieder. Zum Nachfolger ernannt wurde Karl Bürgler.
           Aktuell wird der Verein von Pascal Matter präsidiert. <br />
           Mit der Umbenennung in Schwingclub Zug und Umgebung wurden die Voraussetzungen geschaffen, um in Baar ein Trainingslokal beantragen zu können. Dazu ist zu sagen, dass bereits 1970 den Baarer Schwingern ein Trainingslokal zur Verfügung gestellt worden ist.
           </p>
@@ -27,7 +27,7 @@ export default function About({ vorstand }) {
             <div className="level-item has-text-centered">
               <div>
                 <p className="heading">Gegründet</p>
-                <p className="title">1973</p>
+                <p className="title">1933</p>
               </div>
             </div>
             <div className="level-item has-text-centered">

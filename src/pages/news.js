@@ -8,7 +8,6 @@ const defaultCoverImage = '/images/hero2.jpg'
 export default function News({ news = [] }) {
 
   const filteredNews = news.sort((a, b) => a.date - b.date)
-
   return (
     <Layout title="News">
       <section className="section">
@@ -21,7 +20,7 @@ export default function News({ news = [] }) {
                   <div className="news-article make-it-slow bg-primary-10 box" >
                     <div className="news-title">
                         <h2 className="title is-4 mr-4">{post.title}</h2>
-                        <p>{(new Date(post.dateFormatted)).toLocaleDateString('de-DE', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</p>
+                        <p>{(post.dateFormatted)}</p>
                       </div>
                     <div dangerouslySetInnerHTML={{ __html: post.bodyHtml }} />
                     <img className="image news-image" src={post.coverImage || defaultCoverImage} alt={post.title}></img>
