@@ -1,0 +1,10 @@
+User-agent: Googlebot
+Disallow: /admin/
+
+User-agent: *
+Disallow: /admin/
+
+User-agent: *
+Allow: /
+
+Sitemap: http://www.schwingclubzug.ch/sitemap.txt

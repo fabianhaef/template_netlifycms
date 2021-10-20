@@ -41,6 +41,8 @@ function processFiles({ inputDirectory, outputFile }) {
 
     return jsonData
   })).then(results => {
+    const posts = results.filter(Boolean)
+    posts.sort((a, b) => new Date(b.date) - new Date(a.date))
     const outputPath = path.join(process.cwd(), outputFile)
     fs.writeFileSync(outputPath, JSON.stringify(posts, null, 2))
 
