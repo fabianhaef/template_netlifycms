@@ -11,7 +11,7 @@ function VorstandsMitglied({mitglied}) {
           <h4 className="text is-6 mb-2">{mitglied.phone}</h4>
           {mitglied.email.length !== 0 ? (
             <h4 className="text is-6 mb-2">
-              <a href="mailto:${mitglied.email}" target="_blank" rel="noopener">{mitglied.email}</a>
+              <a href={`mailto:${mitglied.email}`} target="_blank" rel="noopener">{mitglied.email}</a>
             </h4>
           ) : (
             <h4 className="text is-6 mb-2">Keine Email</h4>

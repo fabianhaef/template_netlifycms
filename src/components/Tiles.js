@@ -59,7 +59,7 @@ export default function Tiles() {
                 <div className="content">
                   {thirdArticle.body.substring(0, 200)}...
                 </div>
-                <figure className="image is-4by3 mb-4">
+                <figure className="image mb-4">
                   <img src={thirdArticle.coverImage} />
                 </figure>
               </article>
