@@ -60,7 +60,7 @@ export default function Tiles() {
                   {thirdArticle.body.substring(0, 200)}...
                 </div>
                 <figure className="image mb-4">
-                  <img src={thirdArticle.coverImage} />
+                  <img src={thirdArticle.coverImage} alt={`${thirdArticle.title}`}/>
                 </figure>
               </article>
               </Link>

@@ -23,7 +23,7 @@ export default function Home() {
               <button className="button button-bg">Kontaktiere uns</button>
             </Link>
           </div>   
-          <img src="./static/images/hero2.jpg" className="image"/>
+          <img src="./static/images/hero2.jpg" className="image" alt="hero image"/>
         </div>
       </section>
       < Tiles />

@@ -32,7 +32,7 @@ export default function Navbar() {
       <div className="three">
           <Link href="/">
             <a>
-              <img src="../static/logo.jpg" className="navbar-logo" />
+              <img src="../static/logo.jpg" className="navbar-logo" alt="Logo Schwingclub"/>
             </a>
           </Link>
         <Link href="https://github.com/fabianhaef">

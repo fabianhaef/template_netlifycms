@@ -18,7 +18,7 @@ function VorstandsMitglied({mitglied}) {
           )}
           <div dangerouslySetInnerHTML={{ __html: mitglied.bodyHtml }} />
         </div>
-        <img className="image" src={mitglied.coverImage} alt={mitglied.title} width="128"></img>
+        <img className="image" src={mitglied.coverImage} alt={mitglied.title} width="128" alt={`${mitglied.title}`}></img>
       </article>
     </div>
   )

@@ -53,7 +53,7 @@ export default function About({ vorstand }) {
               <VorstandsMitglied mitglied={mitglied}/>
             ))}
           </div>
-          <img className="image" src="./static/images/vorstand.jpg"></img>
+          <img className="image" src="./static/images/vorstand.jpg" alt="Ganzer vorstand"></img>
         </div>
       </section>
     </Layout >

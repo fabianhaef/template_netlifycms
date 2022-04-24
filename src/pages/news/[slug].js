@@ -14,7 +14,7 @@ export default function NewsPost({ post }) {
             </div>
             <div className="news-content">
               <div className="content" dangerouslySetInnerHTML={{ __html: post.bodyHtml }} />
-              <img src={post.coverImage} className="news-content-image"/>
+              <img src={post.coverImage} alt={post.title} className="news-content-image"/>
             </div>
           </div>
         </div>

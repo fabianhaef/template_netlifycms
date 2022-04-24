@@ -23,7 +23,7 @@ function Fest() {
                   und geniesst die sportlichen Begegnungen in den Sägemehlringen, wie auch das Rahmenprogramm mit Festwirtschaft und urchigen 
                   Brauchtumsdarbietungen.</p>
                   <br/>
-                <img src="./static/images/abigschwinge1.jpg" className="image"/>
+                <img src="./static/images/abigschwinge1.jpg" className="image" alt="Abendschwingen Bild"/>
               </div>
             </Link>
               
@@ -35,7 +35,7 @@ function Fest() {
               <p className="title is-5">Buebeschwingen Baar</p>
               <p className="content">Wie das Abendschwingen gehört auch das Buebeschwingen zum Baarer Veranstaltungskalender. Früher wurde es noch auf dem Schmidhof ausgetragen, heute jedoch auf der Dorfmattwiese wie das Abendschwingen.</p>
               <br/>
-              <img src="./static/images/buebeschwinge1.jpg" className="image"/>
+              <img src="./static/images/buebeschwinge1.jpg" className="image" alt="Buebeschwinge Bild"/>
             </div>
           </Link>
           </div>

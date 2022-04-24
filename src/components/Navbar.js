@@ -10,7 +10,7 @@ export default function Navbar(props) {
         <div className="navbar-brand">
           <Link href="/">
             <a className="navbar-item">
-              <img src={defaultPath || defaultCoverImage} className="navbar-logo" />
+              <img src={defaultPath || defaultCoverImage} className="navbar-logo" alt="logo schwingclub"/>
             </a>
           </Link>
         </div>

@@ -23,7 +23,7 @@ export default function News({ news = [] }) {
                         <p>{(post.dateFormatted)}</p>
                       </div>
                     <div dangerouslySetInnerHTML={{ __html: post.bodyHtml }} />
-                    <img className="image news-image" src={post.coverImage || defaultCoverImage} alt={post.title}></img>
+                    <img className="image news-image" src={post.coverImage || defaultCoverImage} alt={post.title} alt={post.title}></img>
                   </div>
                 </Link>
 
