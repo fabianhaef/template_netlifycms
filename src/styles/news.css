@@ -9,28 +9,34 @@
 .news-article {
   padding: 1rem 2rem;
   min-width: 100%;
-}
+  display: flex;
+} 
 
 .news-title {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: top;
 }
 
 .news-image {
   width: 100%;
+  flex: 1;
 }
 
 .news-content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
+  flex: 1;
 }
 
 .news-content > img {
   max-width: 512px;
+}
+
+.image-wrapper {
+  width: 100%;
+  flex: 1;
+
+
 }
 
 @media only screen and (max-width: 768px) {
