@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Layout from '../components/Layout'
 import Tiles from '../components/Tiles'
 import Fest from '../components/Fest'
+import PopOver from '../components/PopOver'
 
 import Head from 'next/head'
 
@@ -13,6 +14,7 @@ export default function Home() {
       <Head>
         <meta name="description" content="Herzlich Willkommen beim Schwingclub Zug und Umgebung" />
       </Head>
+      <PopOver/>
       <section className="hero section-layout hero-mobile">
 
         <div className="container">
